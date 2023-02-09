@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>Test Input</title>
+  </head>
+  <body>
+    <form onsubmit="onSubmit(event)" onreset="onReset()">
+      <input
+        type="text"
+        name="name"
+        id="input-name-term"
+        placeholder="enter name"
+      />
+      <button type="submit">Apply filters</button>
+      <button type="reset">Reset</button>
+    </form>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Value</th>
+        </tr>
+      </thead>
+      <tbody id="table-body"></tbody>
+    </table>
+    <script type="text/javascript" src="./ajax-renderer.js"></script>
+  </body>
+</html>

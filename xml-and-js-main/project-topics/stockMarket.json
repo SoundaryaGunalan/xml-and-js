@@ -1,0 +1,1037 @@
+[
+  {
+    "id": "4d4dec4b-f56a-4751-8139-12212ffe65b0",
+    "name": "NYSE",
+    "currency": "Dollar",
+    "address": {
+      "street": "032 Petterle Hill",
+      "city": "Cochrane",
+      "region": "Alberta",
+      "country": "Canada"
+    },
+    "stocks": [
+      {
+        "symbol": "BTEC",
+        "name": "Principal Healthcare Innovators Index ETF",
+        "sector": "n/a",
+        "industry": "n/a",
+        "marketCap": "$6.68M",
+        "price": 94.33
+      },
+      {
+        "symbol": "EVOL",
+        "name": "Evolving Systems, Inc.",
+        "sector": "Technology",
+        "industry": "EDP Services",
+        "marketCap": "$63.62M",
+        "price": 63.04
+      },
+      {
+        "symbol": "USLV",
+        "name": "VelocityShares 3x Long Silver ETN",
+        "sector": "Finance",
+        "industry": "Investment Bankers/Brokers/Service",
+        "marketCap": "$225.24M",
+        "price": 15.82
+      },
+      {
+        "symbol": "STAY",
+        "name": "Extended Stay America, Inc.",
+        "sector": "Consumer Services",
+        "industry": "Hotels/Resorts",
+        "marketCap": "$3.65B",
+        "price": 356.1
+      }
+    ],
+    "accounts": [
+      {
+        "holder": {
+          "firstName": "Ansel",
+          "lastName": "Debnam",
+          "gender": "Male",
+          "occupation": "Help Desk Operator"
+        },
+        "bank": {
+          "iban": "GR90 7801 778L UXMT WBCJ 9MDI 067"
+        }
+      },
+      {
+        "holder": {
+          "firstName": "Marlo",
+          "lastName": "Dunkinson",
+          "gender": "Female",
+          "occupation": "Social Worker"
+        },
+        "bank": {
+          "iban": "SE77 7583 5357 3185 9088 0124"
+        }
+      }
+    ]
+  },
+  {
+    "id": "c4937049-157d-4bfb-9e5d-13fef9d0776b",
+    "name": "NYSE",
+    "currency": "Dollar",
+    "address": {
+      "street": "5 Merchant Crossing",
+      "city": "Hope",
+      "region": "British Columbia",
+      "country": "Canada"
+    },
+    "stocks": [
+      {
+        "symbol": "ACWX",
+        "name": "iShares MSCI ACWI ex US Index Fund",
+        "sector": "n/a",
+        "industry": "n/a",
+        "marketCap": "$2.33B",
+        "price": 510.08
+      },
+      {
+        "symbol": "BHI",
+        "name": "Baker Hughes Incorporated",
+        "sector": "Energy",
+        "industry": "Metal Fabrications",
+        "marketCap": "$24.37B",
+        "price": 824.43
+      },
+      {
+        "symbol": "WCST",
+        "name": "Wecast Network, Inc.",
+        "sector": "Consumer Services",
+        "industry": "Television Services",
+        "marketCap": "$130.02M",
+        "price": 191.29
+      },
+      {
+        "symbol": "FEIM",
+        "name": "Frequency Electronics, Inc.",
+        "sector": "Capital Goods",
+        "industry": "Electrical Products",
+        "marketCap": "$81.19M",
+        "price": 363.32
+      }
+    ],
+    "accounts": [
+      {
+        "holder": {
+          "firstName": "Andromache",
+          "lastName": "Fitzsimons",
+          "gender": "Female",
+          "occupation": "Research Assistant IV"
+        },
+        "bank": {
+          "iban": "AD34 5129 3101 RLWW PHUU J9DD"
+        }
+      },
+      {
+        "holder": {
+          "firstName": "Boycey",
+          "lastName": "Mitkin",
+          "gender": "Male",
+          "occupation": "Project Manager"
+        },
+        "bank": {
+          "iban": "FR34 4840 0434 52EM LDBX JQTI I27"
+        }
+      }
+    ]
+  },
+  {
+    "id": "fd88d061-29fb-4604-b5a8-41494ae49584",
+    "name": "NYSE",
+    "currency": "Dollar",
+    "address": {
+      "street": "177 5th Way",
+      "city": "Savannah",
+      "region": "Georgia",
+      "country": "United States"
+    },
+    "stocks": [
+      {
+        "symbol": "EMN",
+        "name": "Eastman Chemical Company",
+        "sector": "Basic Industries",
+        "industry": "Major Chemicals",
+        "marketCap": "$12.11B",
+        "price": 411.74
+      },
+      {
+        "symbol": "NIQ",
+        "name": "Nuveenn Intermediate Duration Quality Municipal Term Fund",
+        "sector": "n/a",
+        "industry": "n/a",
+        "marketCap": "$172.36M",
+        "price": 385.9
+      },
+      {
+        "symbol": "ORN",
+        "name": "Orion Group Holdings, Inc.",
+        "sector": "Basic Industries",
+        "industry": "Military/Government/Technical",
+        "marketCap": "$198.43M",
+        "price": 317.74
+      },
+      {
+        "symbol": "PSCD",
+        "name": "PowerShares S&P SmallCap Consumer Discretionary Portfolio",
+        "sector": "n/a",
+        "industry": "n/a",
+        "marketCap": "$61.54M",
+        "price": 268.87
+      }
+    ],
+    "accounts": [
+      {
+        "holder": {
+          "firstName": "Kipper",
+          "lastName": "Atmore",
+          "gender": "Male",
+          "occupation": "Data Coordiator"
+        },
+        "bank": {
+          "iban": "SM63 W140 1645 835M AFA7 BDQA DYD"
+        }
+      },
+      {
+        "holder": {
+          "firstName": "Ethelred",
+          "lastName": "Agglio",
+          "gender": "Male",
+          "occupation": "Staff Accountant II"
+        },
+        "bank": {
+          "iban": "AT37 3844 5500 7658 8702"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6abfbb60-e6bc-4e89-be4d-7d793f042b36",
+    "name": "NYSE",
+    "currency": "Dollar",
+    "address": {
+      "street": "7240 Northport Place",
+      "city": "Torrance",
+      "region": "California",
+      "country": "United States"
+    },
+    "stocks": [
+      {
+        "symbol": "BRCD",
+        "name": "Brocade Communications Systems, Inc.",
+        "sector": "Technology",
+        "industry": "Computer Communications Equipment",
+        "marketCap": "$5.18B",
+        "price": 718.38
+      },
+      {
+        "symbol": "STBZ",
+        "name": "State Bank Financial Corporation.",
+        "sector": "Finance",
+        "industry": "Major Banks",
+        "marketCap": "$1.04B",
+        "price": 404.49
+      },
+      {
+        "symbol": "NCIT",
+        "name": "NCI, Inc.",
+        "sector": "Technology",
+        "industry": "EDP Services",
+        "marketCap": "$276.46M",
+        "price": 380.96
+      },
+      {
+        "symbol": "ASNA",
+        "name": "Ascena Retail Group, Inc.",
+        "sector": "Consumer Services",
+        "industry": "Clothing/Shoe/Accessory Stores",
+        "marketCap": "$425.18M",
+        "price": 344.13
+      }
+    ],
+    "accounts": [
+      {
+        "holder": {
+          "firstName": "Milo",
+          "lastName": "Klaas",
+          "gender": "Male",
+          "occupation": "Web Designer III"
+        },
+        "bank": {
+          "iban": "GB69 ZJIH 6218 6620 3113 93"
+        }
+      },
+      {
+        "holder": {
+          "firstName": "Wendy",
+          "lastName": "Biaggetti",
+          "gender": "Female",
+          "occupation": "Account Executive"
+        },
+        "bank": {
+          "iban": "AD90 1616 2051 KLP5 GP6H 4UPU"
+        }
+      }
+    ]
+  },
+  {
+    "id": "1ea4b6b2-0536-487c-9fc1-c9b538465f63",
+    "name": "NASDAQ",
+    "currency": "Dollar",
+    "address": {
+      "street": "52 Westridge Crossing",
+      "city": "Charleston",
+      "region": "West Virginia",
+      "country": "United States"
+    },
+    "stocks": [
+      {
+        "symbol": "EARN",
+        "name": "Ellington Residential Mortgage REIT",
+        "sector": "Consumer Services",
+        "industry": "Real Estate Investment Trusts",
+        "marketCap": "$140.16M",
+        "price": 128.58
+      },
+      {
+        "symbol": "WPXP",
+        "name": "WPX Energy, Inc.",
+        "sector": "Energy",
+        "industry": "Oil & Gas Production",
+        "marketCap": "n/a",
+        "price": 531.5
+      },
+      {
+        "symbol": "FONE",
+        "name": "First Trust NASDAQ Smartphone Index Fund",
+        "sector": "n/a",
+        "industry": "n/a",
+        "marketCap": "$14.95M",
+        "price": 697.75
+      },
+      {
+        "symbol": "SND",
+        "name": "Smart Sand, Inc.",
+        "sector": "n/a",
+        "industry": "n/a",
+        "marketCap": "$318.69M",
+        "price": 399.76
+      }
+    ],
+    "accounts": [
+      {
+        "holder": {
+          "firstName": "Peg",
+          "lastName": "Ballendine",
+          "gender": "Female",
+          "occupation": "Health Coach II"
+        },
+        "bank": {
+          "iban": "GE40 KP41 9834 2190 5920 14"
+        }
+      },
+      {
+        "holder": {
+          "firstName": "Yurik",
+          "lastName": "Geraudel",
+          "gender": "Male",
+          "occupation": "Developer I"
+        },
+        "bank": {
+          "iban": "ES12 2073 3004 3988 7018 4868"
+        }
+      }
+    ]
+  },
+  {
+    "id": "8417f291-12c5-448d-8091-75862fe0ccd2",
+    "name": "NYSE",
+    "currency": "Dollar",
+    "address": {
+      "street": "28688 Ilene Place",
+      "city": "Sussex",
+      "region": "New Brunswick",
+      "country": "Canada"
+    },
+    "stocks": [
+      {
+        "symbol": "BEL",
+        "name": "Belmond Ltd.",
+        "sector": "Consumer Services",
+        "industry": "Hotels/Resorts",
+        "marketCap": "$1.35B",
+        "price": 243.06
+      },
+      {
+        "symbol": "NEOG",
+        "name": "Neogen Corporation",
+        "sector": "Health Care",
+        "industry": "Biotechnology: In Vitro & In Vivo Diagnostic Substances",
+        "marketCap": "$2.6B",
+        "price": 855.86
+      },
+      {
+        "symbol": "SRDX",
+        "name": "Surmodics, Inc.",
+        "sector": "Health Care",
+        "industry": "Medical/Dental Instruments",
+        "marketCap": "$333.24M",
+        "price": 965.51
+      },
+      {
+        "symbol": "BGB",
+        "name": "Blackstone / GSO Strategic Credit Fund",
+        "sector": "n/a",
+        "industry": "n/a",
+        "marketCap": "$716.42M",
+        "price": 565.55
+      }
+    ],
+    "accounts": [
+      {
+        "holder": {
+          "firstName": "Miguelita",
+          "lastName": "Domeney",
+          "gender": "Female",
+          "occupation": "Junior Executive"
+        },
+        "bank": {
+          "iban": "KZ06 845Z NISE LT1M NI7P"
+        }
+      },
+      {
+        "holder": {
+          "firstName": "Kimberlyn",
+          "lastName": "Fronsek",
+          "gender": "Genderfluid",
+          "occupation": "Assistant Manager"
+        },
+        "bank": {
+          "iban": "FR63 7481 7443 76BJ NNEY XUHY V74"
+        }
+      }
+    ]
+  },
+  {
+    "id": "0cef825d-79b2-4e86-af56-e3650871d53c",
+    "name": "NYSE",
+    "currency": "Dollar",
+    "address": {
+      "street": "4 Oriole Plaza",
+      "city": "San Antonio",
+      "region": "Texas",
+      "country": "United States"
+    },
+    "stocks": [
+      {
+        "symbol": "CBA",
+        "name": "ClearBridge American Energy MLP Fund Inc.",
+        "sector": "n/a",
+        "industry": "n/a",
+        "marketCap": "$508.59M",
+        "price": 859.45
+      },
+      {
+        "symbol": "HCOM",
+        "name": "Hawaiian Telcom Holdco, Inc.",
+        "sector": "Consumer Services",
+        "industry": "Telecommunications Equipment",
+        "marketCap": "$301.17M",
+        "price": 979.21
+      },
+      {
+        "symbol": "GGM",
+        "name": "Guggenheim Credit Allocation Fund",
+        "sector": "n/a",
+        "industry": "n/a",
+        "marketCap": "$161.51M",
+        "price": 630.12
+      },
+      {
+        "symbol": "REIS",
+        "name": "Reis, Inc",
+        "sector": "Miscellaneous",
+        "industry": "Business Services",
+        "marketCap": "$237.79M",
+        "price": 995.45
+      }
+    ],
+    "accounts": [
+      {
+        "holder": {
+          "firstName": "Anette",
+          "lastName": "Myner",
+          "gender": "Genderfluid",
+          "occupation": "Business Systems Development Analyst"
+        },
+        "bank": {
+          "iban": "MK26 512Z QIUS QEAN M56"
+        }
+      },
+      {
+        "holder": {
+          "firstName": "Nichole",
+          "lastName": "Fylan",
+          "gender": "Male",
+          "occupation": "VP Marketing"
+        },
+        "bank": {
+          "iban": "FR41 6541 7865 34SC PB8J BXGM Z73"
+        }
+      }
+    ]
+  },
+  {
+    "id": "0b4c5b44-6981-4ed4-b788-c68e7d7d28e5",
+    "name": "NYSE",
+    "currency": "Dollar",
+    "address": {
+      "street": "250 Susan Point",
+      "city": "Charleston",
+      "region": "South Carolina",
+      "country": "United States"
+    },
+    "stocks": [
+      {
+        "symbol": "CZNC",
+        "name": "Citizens & Northern Corp",
+        "sector": "Finance",
+        "industry": "Major Banks",
+        "marketCap": "$287.82M",
+        "price": 218.47
+      },
+      {
+        "symbol": "USB^O",
+        "name": "U.S. Bancorp",
+        "sector": "n/a",
+        "industry": "n/a",
+        "marketCap": "n/a",
+        "price": 144.1
+      },
+      {
+        "symbol": "INDB",
+        "name": "Independent Bank Corp.",
+        "sector": "Finance",
+        "industry": "Major Banks",
+        "marketCap": "$1.79B",
+        "price": 590.43
+      },
+      {
+        "symbol": "FEI           ",
+        "name": "First Trust MLP and Energy Income Fund",
+        "sector": "n/a",
+        "industry": "n/a",
+        "marketCap": "$690.47M",
+        "price": 437.86
+      }
+    ],
+    "accounts": [
+      {
+        "holder": {
+          "firstName": "Chastity",
+          "lastName": "Mowne",
+          "gender": "Female",
+          "occupation": "Engineer IV"
+        },
+        "bank": {
+          "iban": "CH20 3063 6DTA 9CVY 13GN D"
+        }
+      },
+      {
+        "holder": {
+          "firstName": "Maure",
+          "lastName": "Temprell",
+          "gender": "Female",
+          "occupation": "Administrative Assistant III"
+        },
+        "bank": {
+          "iban": "FR79 6810 2052 41FA 8IVH RFIM L96"
+        }
+      }
+    ]
+  },
+  {
+    "id": "4e6b71c6-4eab-49f0-b4e5-97e34b6c024a",
+    "name": "NASDAQ",
+    "currency": "Dollar",
+    "address": {
+      "street": "9 Anderson Crossing",
+      "city": "Toronto",
+      "region": "Ontario",
+      "country": "Canada"
+    },
+    "stocks": [
+      {
+        "symbol": "MTEX",
+        "name": "Mannatech, Incorporated",
+        "sector": "Consumer Durables",
+        "industry": "Specialty Chemicals",
+        "marketCap": "$36.87M",
+        "price": 468.28
+      },
+      {
+        "symbol": "BLCM",
+        "name": "Bellicum Pharmaceuticals, Inc.",
+        "sector": "Health Care",
+        "industry": "Major Pharmaceuticals",
+        "marketCap": "$375.06M",
+        "price": 485.81
+      },
+      {
+        "symbol": "THST",
+        "name": "Truett-Hurst, Inc.",
+        "sector": "Consumer Non-Durables",
+        "industry": "Beverages (Production/Distribution)",
+        "marketCap": "$9.12M",
+        "price": 162.96
+      },
+      {
+        "symbol": "AMD",
+        "name": "Advanced Micro Devices, Inc.",
+        "sector": "Technology",
+        "industry": "Semiconductors",
+        "marketCap": "$10.81B",
+        "price": 879.67
+      }
+    ],
+    "accounts": [
+      {
+        "holder": {
+          "firstName": "Auroora",
+          "lastName": "Cullerne",
+          "gender": "Female",
+          "occupation": "Web Developer III"
+        },
+        "bank": {
+          "iban": "TR55 2136 97UW TWY1 7A49 EYAT XD"
+        }
+      },
+      {
+        "holder": {
+          "firstName": "Mano",
+          "lastName": "Lupson",
+          "gender": "Male",
+          "occupation": "Civil Engineer"
+        },
+        "bank": {
+          "iban": "PT39 0455 0594 1248 2986 2405 5"
+        }
+      }
+    ]
+  },
+  {
+    "id": "0b06b451-b2df-4be8-a3a9-2226d8217b1e",
+    "name": "NYSE",
+    "currency": "Dollar",
+    "address": {
+      "street": "6682 Bobwhite Drive",
+      "city": "Baltimore",
+      "region": "Maryland",
+      "country": "United States"
+    },
+    "stocks": [
+      {
+        "symbol": "ENLK",
+        "name": "EnLink Midstream Partners, LP",
+        "sector": "Public Utilities",
+        "industry": "Natural Gas Distribution",
+        "marketCap": "$5.52B",
+        "price": 711.04
+      },
+      {
+        "symbol": "WCG",
+        "name": "WellCare Health Plans, Inc.",
+        "sector": "Health Care",
+        "industry": "Medical Specialities",
+        "marketCap": "$7.77B",
+        "price": 657.57
+      },
+      {
+        "symbol": "QVCB",
+        "name": "Liberty Interactive Corporation",
+        "sector": "Consumer Services",
+        "industry": "Catalog/Specialty Distribution",
+        "marketCap": "$10.92B",
+        "price": 114.08
+      },
+      {
+        "symbol": "ROBO",
+        "name": "ROBO Global Robotics and Automation Index ETF",
+        "sector": "n/a",
+        "industry": "n/a",
+        "marketCap": "$158.98M",
+        "price": 40.27
+      }
+    ],
+    "accounts": [
+      {
+        "holder": {
+          "firstName": "Sid",
+          "lastName": "Kinghorne",
+          "gender": "Male",
+          "occupation": "Assistant Professor"
+        },
+        "bank": {
+          "iban": "FR66 4086 0476 02RQ YALU QEJY T44"
+        }
+      },
+      {
+        "holder": {
+          "firstName": "Alfy",
+          "lastName": "Ingleton",
+          "gender": "Male",
+          "occupation": "Programmer Analyst III"
+        },
+        "bank": {
+          "iban": "MK95 687O X9YY LSJ8 T77"
+        }
+      }
+    ]
+  },
+  {
+    "id": "23075cd9-e774-4d0d-825e-4b6a0d831197",
+    "name": "NASDAQ",
+    "currency": "Dollar",
+    "address": {
+      "street": "13 Myrtle Street",
+      "city": "Phoenix",
+      "region": "Arizona",
+      "country": "United States"
+    },
+    "stocks": [
+      {
+        "symbol": "W",
+        "name": "Wayfair Inc.",
+        "sector": "Consumer Services",
+        "industry": "Catalog/Specialty Distribution",
+        "marketCap": "$6.6B",
+        "price": 931.16
+      },
+      {
+        "symbol": "AFG",
+        "name": "American Financial Group, Inc.",
+        "sector": "Finance",
+        "industry": "Property-Casualty Insurers",
+        "marketCap": "$8.98B",
+        "price": 627.49
+      },
+      {
+        "symbol": "ESSA",
+        "name": "ESSA Bancorp, Inc.",
+        "sector": "Finance",
+        "industry": "Banks",
+        "marketCap": "$175.65M",
+        "price": 40.15
+      },
+      {
+        "symbol": "HCOM",
+        "name": "Hawaiian Telcom Holdco, Inc.",
+        "sector": "Consumer Services",
+        "industry": "Telecommunications Equipment",
+        "marketCap": "$301.17M",
+        "price": 153.76
+      }
+    ],
+    "accounts": [
+      {
+        "holder": {
+          "firstName": "Lance",
+          "lastName": "Metham",
+          "gender": "Male",
+          "occupation": "Design Engineer"
+        },
+        "bank": {
+          "iban": "BH96 ARQL RZYU X9GX OHU5 AF"
+        }
+      },
+      {
+        "holder": {
+          "firstName": "Clerissa",
+          "lastName": "Kilius",
+          "gender": "Female",
+          "occupation": "Assistant Manager"
+        },
+        "bank": {
+          "iban": "GT15 VTFF 33JA J6MT DE0X KVXP YECV"
+        }
+      }
+    ]
+  },
+  {
+    "id": "c942ac70-945f-4eb7-a591-aa02dce97319",
+    "name": "NASDAQ",
+    "currency": "Dollar",
+    "address": {
+      "street": "0727 Novick Street",
+      "city": "Lafayette",
+      "region": "Louisiana",
+      "country": "United States"
+    },
+    "stocks": [
+      {
+        "symbol": "BPTH",
+        "name": "Bio-Path Holdings, Inc.",
+        "sector": "Health Care",
+        "industry": "Major Pharmaceuticals",
+        "marketCap": "$33.49M",
+        "price": 539.68
+      },
+      {
+        "symbol": "KNOP",
+        "name": "KNOT Offshore Partners LP",
+        "sector": "Consumer Services",
+        "industry": "Marine Transportation",
+        "marketCap": "$702.27M",
+        "price": 580.09
+      },
+      {
+        "symbol": "MARPS",
+        "name": "Marine Petroleum Trust",
+        "sector": "Energy",
+        "industry": "Oil & Gas Production",
+        "marketCap": "$6.92M",
+        "price": 421.92
+      },
+      {
+        "symbol": "EPR^E",
+        "name": "EPR Properties",
+        "sector": "n/a",
+        "industry": "n/a",
+        "marketCap": "n/a",
+        "price": 151.38
+      }
+    ],
+    "accounts": [
+      {
+        "holder": {
+          "firstName": "Eadmund",
+          "lastName": "Turrell",
+          "gender": "Male",
+          "occupation": "Registered Nurse"
+        },
+        "bank": {
+          "iban": "TN27 3912 0512 5390 4442 2473"
+        }
+      },
+      {
+        "holder": {
+          "firstName": "Dom",
+          "lastName": "Lethbridge",
+          "gender": "Male",
+          "occupation": "Senior Sales Associate"
+        },
+        "bank": {
+          "iban": "FR33 0502 8180 32O1 BZPK ALGQ C45"
+        }
+      }
+    ]
+  },
+  {
+    "id": "b128697a-c233-4155-ba69-42592b8f3f8e",
+    "name": "NYSE",
+    "currency": "Dollar",
+    "address": {
+      "street": "1 Vera Court",
+      "city": "Saint Andrews",
+      "region": "New Brunswick",
+      "country": "Canada"
+    },
+    "stocks": [
+      {
+        "symbol": "AMCX",
+        "name": "AMC Networks Inc.",
+        "sector": "Consumer Services",
+        "industry": "Television Services",
+        "marketCap": "$3.72B",
+        "price": 36.07
+      },
+      {
+        "symbol": "ZEUS",
+        "name": "Olympic Steel, Inc.",
+        "sector": "Basic Industries",
+        "industry": "Metal Fabrications",
+        "marketCap": "$184.08M",
+        "price": 611.3
+      },
+      {
+        "symbol": "PSA^X",
+        "name": "Public Storage",
+        "sector": "n/a",
+        "industry": "n/a",
+        "marketCap": "n/a",
+        "price": 468.24
+      },
+      {
+        "symbol": "WHLRD",
+        "name": "Wheeler Real Estate Investment Trust, Inc.",
+        "sector": "Consumer Services",
+        "industry": "Real Estate Investment Trusts",
+        "marketCap": "n/a",
+        "price": 981.24
+      }
+    ],
+    "accounts": [
+      {
+        "holder": {
+          "firstName": "Kevan",
+          "lastName": "Semeniuk",
+          "gender": "Male",
+          "occupation": "Web Developer I"
+        },
+        "bank": {
+          "iban": "MU88 LOXO 3038 3465 8377 4163 127A HC"
+        }
+      },
+      {
+        "holder": {
+          "firstName": "Karlan",
+          "lastName": "D'Onise",
+          "gender": "Male",
+          "occupation": "Software Consultant"
+        },
+        "bank": {
+          "iban": "LB58 3089 Q74D HR4O 2XW1 U339 QIUW"
+        }
+      }
+    ]
+  },
+  {
+    "id": "be2b81ac-d6e2-4ad2-b671-6a0ce6a4c69b",
+    "name": "NASDAQ",
+    "currency": "Dollar",
+    "address": {
+      "street": "9751 Haas Terrace",
+      "city": "Los Angeles",
+      "region": "California",
+      "country": "United States"
+    },
+    "stocks": [
+      {
+        "symbol": "LXP^C",
+        "name": "Lexington Realty Trust",
+        "sector": "n/a",
+        "industry": "n/a",
+        "marketCap": "n/a",
+        "price": 21.09
+      },
+      {
+        "symbol": "DMB",
+        "name": "Dreyfus Municipal Bond Infrastructure Fund, Inc.",
+        "sector": "n/a",
+        "industry": "n/a",
+        "marketCap": "$242.27M",
+        "price": 638.37
+      },
+      {
+        "symbol": "RNDB",
+        "name": "Randolph Bancorp, Inc.",
+        "sector": "Finance",
+        "industry": "Major Banks",
+        "marketCap": "$91.85M",
+        "price": 194.09
+      },
+      {
+        "symbol": "SEV",
+        "name": "Sevcon, Inc.",
+        "sector": "Energy",
+        "industry": "Industrial Machinery/Components",
+        "marketCap": "$89.69M",
+        "price": 878.42
+      }
+    ],
+    "accounts": [
+      {
+        "holder": {
+          "firstName": "Yettie",
+          "lastName": "Bastin",
+          "gender": "Female",
+          "occupation": "Occupational Therapist"
+        },
+        "bank": {
+          "iban": "BE77 2368 3747 4333"
+        }
+      },
+      {
+        "holder": {
+          "firstName": "Paulette",
+          "lastName": "Van Ross",
+          "gender": "Female",
+          "occupation": "Engineer III"
+        },
+        "bank": {
+          "iban": "CY12 7405 7001 UHOO VNPN K8LK 9AET"
+        }
+      }
+    ]
+  },
+  {
+    "id": "591a5568-40c7-489f-9ff7-d3d39a3b7179",
+    "name": "NYSE",
+    "currency": "Dollar",
+    "address": {
+      "street": "121 Fordem Pass",
+      "city": "Clearwater",
+      "region": "Florida",
+      "country": "United States"
+    },
+    "stocks": [
+      {
+        "symbol": "RPRX",
+        "name": "Repros Therapeutics Inc.",
+        "sector": "Health Care",
+        "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+        "marketCap": "$9.14M",
+        "price": 541.69
+      },
+      {
+        "symbol": "TLLP",
+        "name": "Tesoro Logistics LP",
+        "sector": "Energy",
+        "industry": "Natural Gas Distribution",
+        "marketCap": "$5.26B",
+        "price": 111.0
+      },
+      {
+        "symbol": "WHFBL",
+        "name": "WhiteHorse Finance, Inc.",
+        "sector": "n/a",
+        "industry": "n/a",
+        "marketCap": "n/a",
+        "price": 324.65
+      },
+      {
+        "symbol": "TCRX",
+        "name": "THL Credit, Inc.",
+        "sector": "n/a",
+        "industry": "n/a",
+        "marketCap": "n/a",
+        "price": 996.28
+      }
+    ],
+    "accounts": [
+      {
+        "holder": {
+          "firstName": "Hyman",
+          "lastName": "Van Der Vlies",
+          "gender": "Male",
+          "occupation": "Senior Editor"
+        },
+        "bank": {
+          "iban": "IE66 MMQE 6856 9649 7494 15"
+        }
+      },
+      {
+        "holder": {
+          "firstName": "Revkah",
+          "lastName": "Bone",
+          "gender": "Female",
+          "occupation": "Marketing Assistant"
+        },
+        "bank": {
+          "iban": "FR32 0932 2274 83OI XRRZ OHHP P33"
+        }
+      }
+    ]
+  }
+]

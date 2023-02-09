@@ -1,0 +1,61 @@
+[
+  {
+    "productId": "e4892f6a-7cce-11ec-90d6-0242ac120003",
+    "description": "Cardigan Sweater",
+    "productImage": "cardigan.jpg",
+    "items": [
+      {
+        "itemNumber": "QWZ5671",
+        "price": 39.95,
+        "gender": "Men",
+        "swatches": [
+          {
+            "description": "Medium",
+            "colors": [
+              { "color": "Red", "image": "red_cardigan.jpg" },
+              { "color": "Burgundy", "image": "burgundy_cardigan.jpg" }
+            ]
+          }
+        ]
+      },
+      {
+        "itemNumber": "RRX9856",
+        "price": 42.5,
+        "gender": "Women",
+        "swatches": [
+          {
+            "description": "Small",
+            "colors": [
+              { "color": "Red", "image": "red_cardigan.jpg" },
+              { "color": "Navy", "image": "navy_cardigan.jpg" },
+              { "color": "Burgundy", "image": "burgundy_cardigan.jpg" }
+            ]
+          },
+          {
+            "description": "Medium",
+            "colors": [
+              { "color": "Red", "image": "red_cardigan.jpg" },
+              { "color": "Navy", "image": "navy_cardigan.jpg" },
+              { "color": "Burgundy", "image": "burgundy_cardigan.jpg" },
+              { "color": "Black", "image": "v.jpg" }
+            ]
+          },
+          {
+            "description": "Large",
+            "colors": [
+              { "color": "Navy", "image": "navy_cardigan.jpg" },
+              { "color": "Black", "image": "v.jpg" }
+            ]
+          },
+          {
+            "description": "Extra Large",
+            "colors": [
+              { "color": "Burgundy", "image": "burgundy_cardigan.jpg" },
+              { "color": "Black", "image": "v.jpg" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

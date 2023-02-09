@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <p id="text"></p>
+
+    <script>
+      const xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+          displayData(this);
+        }
+      };
+      xhttp.open("GET", "customers.xml", true);
+      xhttp.send();
+
+      function displayData(xml) {
+        const xmlDoc = xml.responseXML;
+        document.getElementById("text").innerHTML =
+          xmlDoc.getElementsByTagName("name")[0].childNodes[0].nodeValue;
+      }
+    </script>
+  </body>
+</html>

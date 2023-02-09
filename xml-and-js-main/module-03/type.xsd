@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="menuInfo" type="MenuInfoType"/>
+
+  <xs:complexType name="MenuInfoType">
+      <xs:sequence>
+        <xs:element name="title" type="xs:string" />
+        <xs:element name="summary" type="xs:string" />
+        <xs:element name="effectiveDate" type="xs:string" />
+        <xs:element name="menu" type="MenuType" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+
+  <xs:complexType name="MenuType">
+      <xs:sequence>
+        <xs:element name="category" type="xs:string" />
+        <xs:element name="menuItem" type="MenuItemType" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="MenuItemType">
+    <xs:sequence>
+        <xs:element name="itemName" type="ItemNameType"/>
+        <xs:element name="description" type="xs:string" />
+        <xs:element name="price">
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:decimal">
+                <xs:attribute name="currency" type="xs:string"/>
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="indicator" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="ItemNameType">
+    <xs:sequence>
+      <xs:element name="originalName" type="xs:string" />
+      <xs:element name="oldName" type="xs:string" minOccurs="0" maxOccurs="1"/>
+    </xs:sequence>
+    <xs:attribute name="updateAt" type="xs:date" />
+  </xs:complexType>
+</xs:schema>

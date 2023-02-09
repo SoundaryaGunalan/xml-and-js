@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<!DOCTYPE customers 
+[
+  <!ELEMENT customers (customer+)>
+  <!ELEMENT customer (name, address, phone, email?, orders)>
+  <!ATTLIST customer custID ID #REQUIRED>
+  <!ELEMENT name (#PCDATA)>
+  <!ATTLIST name title (Mr.|Mrs.|Ms.) #REQUIRED>
+  <!ELEMENT address (#PCDATA)>
+  <!ELEMENT phone (#PCDATA)>
+  <!ELEMENT email (#PCDATA)>
+  <!ELEMENT orders (order+)>
+  <!ELEMENT order (orderDate, items)>
+  <!ATTLIST order orderID ID #REQUIRED>
+  <!ATTLIST order orderBy IDREF #REQUIRED>
+  <!ELEMENT orderDate (#PCDATA)>
+  <!ELEMENT items (item+)>
+  <!ELEMENT item (itemPrice, itemQty)>
+  <!ELEMENT itemPrice (#PCDATA)>
+  <!ELEMENT itemQty (#PCDATA)>
+]>
+<customers>
+  <customer custID="cust201">
+    <name title="Mr.">John Michael</name>
+    <address>
+      <![CDATA[
+      41 West Plankton Avenue
+      Orlando, FL 32820
+      ]]>]
+    </address>
+    <phone>(407) 555-3476</phone>
+    <email>jk@example.net</email>
+    <orders>
+      <order orderID="or1089" orderBy="cust201">
+        <orderDate>2021-06-03</orderDate>
+        <items>
+          <item>
+            <itemPrice>$35.99</itemPrice>
+            <itemQty>3</itemQty>
+          </item>
+        </items>
+      </order>
+    </orders>
+  </customer>
+  <customer custID="cust202">
+    <name title="Mrs.">Sarah Michael</name>
+    <address>
+      <![CDATA[
+      41 West Plankton Avenue
+      Orlando, FL 32820
+      ]]>]
+    </address>
+    <phone>(407) 555-1234</phone>
+    <orders>
+      <order orderID="or1090" orderBy="cust202">
+        <orderDate>2021-10-10</orderDate>
+        <items>
+          <item>
+            <itemPrice>$45.99</itemPrice>
+            <itemQty>1</itemQty>
+          </item>
+        </items>
+      </order>
+    </orders>
+  </customer>
+</customers>

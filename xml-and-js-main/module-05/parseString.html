@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <p id="text"></p>
+
+    <script>
+      const text = `<customer custID="cust201">
+    <name title="Mr.">John Michael</name>
+    <address>
+      41 West Plankton Avenue, Orlando, FL 32820
+    </address>
+    <phone>(407) 555-3476</phone>
+    <email>jk@example.net</email>
+    <orders>
+      <order orderID="or1089" orderBy="cust201">
+        <orderDate>2021-06-03</orderDate>
+        <items>
+          <item>
+            <itemPrice>$35.99</itemPrice>
+            <itemQty>3</itemQty>
+          </item>
+        </items>
+      </order>
+    </orders>
+  </customer>`;
+
+      const parser = new DOMParser();
+      const xmlDoc = parser.parseFromString(text, "text/xml");
+
+      document.getElementById("text").innerHTML =
+        xmlDoc.getElementsByTagName("name")[0].childNodes[0].nodeValue;
+    </script>
+  </body>
+</html>

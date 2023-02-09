@@ -1,0 +1,857 @@
+[
+  {
+    "startDate": "2007-08-19",
+    "endDate": "2018-01-19",
+    "address": {
+      "street": "48 Rusk Street",
+      "city": "La Plaine-Saint-Denis",
+      "region": "Île-de-France",
+      "country": "France"
+    },
+    "workers": [
+      {
+        "firstName": "Tiffany",
+        "lastName": "Strachan",
+        "role": "Supervisor"
+      },
+      {
+        "firstName": "Desirae",
+        "lastName": "Bryett",
+        "role": "Surveyor"
+      }
+    ],
+    "equipment": [
+      {
+        "type": "Skid-Steer",
+        "qty": 9
+      },
+      {
+        "type": "Scraper",
+        "qty": 6
+      },
+      {
+        "type": "Dragline",
+        "qty": 10
+      }
+    ],
+    "supply": [
+      {
+        "material": "Steel",
+        "qty": 6
+      },
+      {
+        "material": "Granite",
+        "qty": 2
+      },
+      {
+        "material": "Vinyl",
+        "qty": 1
+      },
+      {
+        "material": "Brass",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "startDate": "2006-09-02",
+    "endDate": "2012-04-01",
+    "address": {
+      "street": "30279 Bobwhite Court",
+      "city": "Saint-Lin-Laurentides",
+      "region": "Québec",
+      "country": "Canada"
+    },
+    "contractors": [
+      {
+        "name": "Fahey-Leffler"
+      }
+    ],
+    "workers": [
+      {
+        "firstName": "Wain",
+        "lastName": "Leonards",
+        "role": "Construction Worker"
+      },
+      {
+        "firstName": "Traver",
+        "lastName": "Thiolier",
+        "role": "Project Manager"
+      }
+    ],
+    "equipment": [
+      {
+        "type": "Excavator",
+        "qty": 0
+      },
+      {
+        "type": "Excavator",
+        "qty": 10
+      },
+      {
+        "type": "Dragline",
+        "qty": 0
+      }
+    ],
+    "supply": [
+      {
+        "material": "Glass",
+        "qty": 1
+      },
+      {
+        "material": "Plastic",
+        "qty": 8
+      },
+      {
+        "material": "Vinyl",
+        "qty": 7
+      },
+      {
+        "material": "Plexiglass",
+        "qty": 7
+      }
+    ]
+  },
+  {
+    "startDate": "2005-01-27",
+    "endDate": "2018-02-15",
+    "address": {
+      "street": "46 Ohio Street",
+      "city": "Charlotte",
+      "region": "North Carolina",
+      "country": "United States"
+    },
+    "contractors": [
+      {
+        "name": "Gutmann-Rowe"
+      }
+    ],
+    "workers": [
+      {
+        "firstName": "Manfred",
+        "lastName": "Lamden",
+        "role": "Construction Manager"
+      },
+      {
+        "firstName": "Patty",
+        "lastName": "Bridell",
+        "role": "Construction Expeditor"
+      }
+    ],
+    "equipment": [
+      {
+        "type": "Grader",
+        "qty": 2
+      },
+      {
+        "type": "Backhoe",
+        "qty": 3
+      },
+      {
+        "type": "Dump Truck",
+        "qty": 8
+      }
+    ],
+    "supply": [
+      {
+        "material": "Aluminum",
+        "qty": 5
+      },
+      {
+        "material": "Stone",
+        "qty": 3
+      },
+      {
+        "material": "Granite",
+        "qty": 2
+      },
+      {
+        "material": "Rubber",
+        "qty": 8
+      }
+    ]
+  },
+  {
+    "startDate": "2006-06-26",
+    "endDate": "2024-06-28",
+    "address": {
+      "street": "18 Karstens Hill",
+      "city": "Honolulu",
+      "region": "Hawaii",
+      "country": "United States"
+    },
+    "contractors": [
+      {
+        "name": "Wisoky Inc"
+      }
+    ],
+    "workers": [
+      {
+        "firstName": "Shina",
+        "lastName": "Blowfelde",
+        "role": "Engineer"
+      },
+      {
+        "firstName": "Fredericka",
+        "lastName": "Batters",
+        "role": "Project Manager"
+      }
+    ],
+    "equipment": [
+      {
+        "type": "Grader",
+        "qty": 0
+      },
+      {
+        "type": "Scraper",
+        "qty": 5
+      },
+      {
+        "type": "Excavator",
+        "qty": 0
+      }
+    ],
+    "supply": [
+      {
+        "material": "Rubber",
+        "qty": 0
+      },
+      {
+        "material": "Vinyl",
+        "qty": 7
+      },
+      {
+        "material": "Stone",
+        "qty": 0
+      },
+      {
+        "material": "Wood",
+        "qty": 6
+      }
+    ]
+  },
+  {
+    "startDate": "2007-02-22",
+    "endDate": "2022-09-10",
+    "address": {
+      "street": "9929 Gale Court",
+      "city": "Saint-Étienne",
+      "region": "Rhône-Alpes",
+      "country": "France"
+    },
+    "workers": [
+      {
+        "firstName": "Lesly",
+        "lastName": "Moylane",
+        "role": "Construction Worker"
+      },
+      {
+        "firstName": "Gayleen",
+        "lastName": "Hubbucks",
+        "role": "Electrician"
+      }
+    ],
+    "equipment": [
+      {
+        "type": "Scraper",
+        "qty": 1
+      },
+      {
+        "type": "Compactor",
+        "qty": 2
+      },
+      {
+        "type": "Scraper",
+        "qty": 9
+      }
+    ],
+    "supply": [
+      {
+        "material": "Aluminum",
+        "qty": 0
+      },
+      {
+        "material": "Granite",
+        "qty": 8
+      },
+      {
+        "material": "Plexiglass",
+        "qty": 2
+      },
+      {
+        "material": "Granite",
+        "qty": 6
+      }
+    ]
+  },
+  {
+    "startDate": "2007-09-24",
+    "endDate": "2025-03-15",
+    "address": {
+      "street": "4 Fairfield Terrace",
+      "city": "Pasadena",
+      "region": "California",
+      "country": "United States"
+    },
+    "contractors": [
+      {
+        "name": "Koepp-O'Connell"
+      }
+    ],
+    "workers": [
+      {
+        "firstName": "Evan",
+        "lastName": "Byrom",
+        "role": "Engineer"
+      },
+      {
+        "firstName": "Trey",
+        "lastName": "Whistlecroft",
+        "role": "Supervisor"
+      }
+    ],
+    "equipment": [
+      {
+        "type": "Dragline",
+        "qty": 3
+      },
+      {
+        "type": "Scraper",
+        "qty": 3
+      },
+      {
+        "type": "Dump Truck",
+        "qty": 1
+      }
+    ],
+    "supply": [
+      {
+        "material": "Plastic",
+        "qty": 7
+      },
+      {
+        "material": "Plexiglass",
+        "qty": 3
+      },
+      {
+        "material": "Glass",
+        "qty": 6
+      },
+      {
+        "material": "Plexiglass",
+        "qty": 6
+      }
+    ]
+  },
+  {
+    "startDate": "2005-09-12",
+    "endDate": "2011-11-18",
+    "address": {
+      "street": "11 Luster Crossing",
+      "city": "Paris 17",
+      "region": "Île-de-France",
+      "country": "France"
+    },
+    "workers": [
+      {
+        "firstName": "Meade",
+        "lastName": "Gatiss",
+        "role": "Electrician"
+      },
+      {
+        "firstName": "Loralie",
+        "lastName": "Brocklebank",
+        "role": "Engineer"
+      }
+    ],
+    "equipment": [
+      {
+        "type": "Dump Truck",
+        "qty": 7
+      },
+      {
+        "type": "Scraper",
+        "qty": 2
+      },
+      {
+        "type": "Bulldozer",
+        "qty": 2
+      }
+    ],
+    "supply": [
+      {
+        "material": "Granite",
+        "qty": 0
+      },
+      {
+        "material": "Glass",
+        "qty": 8
+      },
+      {
+        "material": "Wood",
+        "qty": 10
+      },
+      {
+        "material": "Granite",
+        "qty": 7
+      }
+    ]
+  },
+  {
+    "startDate": "2006-05-06",
+    "endDate": "2029-05-09",
+    "address": {
+      "street": "6851 Mcguire Circle",
+      "city": "Marystown",
+      "region": "Newfoundland and Labrador",
+      "country": "Canada"
+    },
+    "contractors": [
+      {
+        "name": "Flatley, Fritsch and Kshlerin"
+      }
+    ],
+    "workers": [
+      {
+        "firstName": "Barnie",
+        "lastName": "Chominski",
+        "role": "Estimator"
+      },
+      {
+        "firstName": "Ricky",
+        "lastName": "Kidstone",
+        "role": "Architect"
+      }
+    ],
+    "equipment": [
+      {
+        "type": "Skid-Steer",
+        "qty": 8
+      },
+      {
+        "type": "Compactor",
+        "qty": 2
+      },
+      {
+        "type": "Backhoe",
+        "qty": 6
+      }
+    ],
+    "supply": [
+      {
+        "material": "Wood",
+        "qty": 5
+      },
+      {
+        "material": "Glass",
+        "qty": 1
+      },
+      {
+        "material": "Aluminum",
+        "qty": 7
+      },
+      {
+        "material": "Glass",
+        "qty": 8
+      }
+    ]
+  },
+  {
+    "startDate": "2005-04-14",
+    "endDate": "2012-08-08",
+    "address": {
+      "street": "05 Knutson Junction",
+      "city": "Chicago",
+      "region": "Illinois",
+      "country": "United States"
+    },
+    "contractors": [
+      {
+        "name": "Carroll, Dickinson and Kassulke"
+      }
+    ],
+    "workers": [
+      {
+        "firstName": "Thorny",
+        "lastName": "Keuntje",
+        "role": "Construction Expeditor"
+      },
+      {
+        "firstName": "Edi",
+        "lastName": "Kubicki",
+        "role": "Electrician"
+      }
+    ],
+    "equipment": [
+      {
+        "type": "Bulldozer",
+        "qty": 4
+      },
+      {
+        "type": "Bulldozer",
+        "qty": 7
+      },
+      {
+        "type": "Bulldozer",
+        "qty": 1
+      }
+    ],
+    "supply": [
+      {
+        "material": "Aluminum",
+        "qty": 9
+      },
+      {
+        "material": "Glass",
+        "qty": 1
+      },
+      {
+        "material": "Glass",
+        "qty": 8
+      },
+      {
+        "material": "Granite",
+        "qty": 7
+      }
+    ]
+  },
+  {
+    "startDate": "2009-01-14",
+    "endDate": "2017-05-24",
+    "address": {
+      "street": "9796 Delladonna Circle",
+      "city": "Killarney",
+      "region": "Manitoba",
+      "country": "Canada"
+    },
+    "contractors": [
+      {
+        "name": "Stiedemann-Feeney"
+      }
+    ],
+    "workers": [
+      {
+        "firstName": "Prisca",
+        "lastName": "Kubat",
+        "role": "Construction Foreman"
+      },
+      {
+        "firstName": "Ricki",
+        "lastName": "Critcher",
+        "role": "Supervisor"
+      }
+    ],
+    "equipment": [
+      {
+        "type": "Grader",
+        "qty": 8
+      },
+      {
+        "type": "Compactor",
+        "qty": 8
+      },
+      {
+        "type": "Grader",
+        "qty": 1
+      }
+    ],
+    "supply": [
+      {
+        "material": "Plexiglass",
+        "qty": 1
+      },
+      {
+        "material": "Stone",
+        "qty": 2
+      },
+      {
+        "material": "Granite",
+        "qty": 10
+      },
+      {
+        "material": "Steel",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "startDate": "2007-05-26",
+    "endDate": "2028-10-27",
+    "address": {
+      "street": "70436 Grover Plaza",
+      "city": "Bochum",
+      "region": "Nordrhein-Westfalen",
+      "country": "Germany"
+    },
+    "workers": [
+      {
+        "firstName": "Odie",
+        "lastName": "Mikalski",
+        "role": "Supervisor"
+      },
+      {
+        "firstName": "Aymer",
+        "lastName": "Barhims",
+        "role": "Construction Expeditor"
+      }
+    ],
+    "equipment": [
+      {
+        "type": "Dump Truck",
+        "qty": 9
+      },
+      {
+        "type": "Backhoe",
+        "qty": 0
+      },
+      {
+        "type": "Scraper",
+        "qty": 8
+      }
+    ],
+    "supply": [
+      {
+        "material": "Stone",
+        "qty": 9
+      },
+      {
+        "material": "Granite",
+        "qty": 2
+      },
+      {
+        "material": "Wood",
+        "qty": 0
+      },
+      {
+        "material": "Granite",
+        "qty": 8
+      }
+    ]
+  },
+  {
+    "startDate": "2009-06-15",
+    "endDate": "2016-02-04",
+    "address": {
+      "street": "1 Arapahoe Center",
+      "city": "Dorchester",
+      "region": "Ontario",
+      "country": "Canada"
+    },
+    "workers": [
+      {
+        "firstName": "Daniella",
+        "lastName": "Drysdell",
+        "role": "Project Manager"
+      },
+      {
+        "firstName": "Verne",
+        "lastName": "Boswood",
+        "role": "Supervisor"
+      }
+    ],
+    "equipment": [
+      {
+        "type": "Dragline",
+        "qty": 7
+      },
+      {
+        "type": "Scraper",
+        "qty": 0
+      },
+      {
+        "type": "Skid-Steer",
+        "qty": 9
+      }
+    ],
+    "supply": [
+      {
+        "material": "Wood",
+        "qty": 3
+      },
+      {
+        "material": "Aluminum",
+        "qty": 9
+      },
+      {
+        "material": "Plexiglass",
+        "qty": 3
+      },
+      {
+        "material": "Rubber",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "startDate": "2007-08-15",
+    "endDate": "2015-05-08",
+    "address": {
+      "street": "64 Lukken Hill",
+      "city": "Paris 15",
+      "region": "Île-de-France",
+      "country": "France"
+    },
+    "contractors": [
+      {
+        "name": "Bednar-Orn"
+      }
+    ],
+    "workers": [
+      {
+        "firstName": "Barbaraanne",
+        "lastName": "Youel",
+        "role": "Construction Worker"
+      },
+      {
+        "firstName": "Guido",
+        "lastName": "Bertram",
+        "role": "Project Manager"
+      }
+    ],
+    "equipment": [
+      {
+        "type": "Dragline",
+        "qty": 1
+      },
+      {
+        "type": "Skid-Steer",
+        "qty": 6
+      },
+      {
+        "type": "Compactor",
+        "qty": 4
+      }
+    ],
+    "supply": [
+      {
+        "material": "Rubber",
+        "qty": 0
+      },
+      {
+        "material": "Aluminum",
+        "qty": 8
+      },
+      {
+        "material": "Plexiglass",
+        "qty": 8
+      },
+      {
+        "material": "Vinyl",
+        "qty": 9
+      }
+    ]
+  },
+  {
+    "startDate": "2005-10-21",
+    "endDate": "2010-11-06",
+    "address": {
+      "street": "25796 Hooker Circle",
+      "city": "Fullerton",
+      "region": "California",
+      "country": "United States"
+    },
+    "contractors": [
+      {
+        "name": "Bednar, Kuhlman and Hyatt"
+      }
+    ],
+    "workers": [
+      {
+        "firstName": "Mureil",
+        "lastName": "Gerrill",
+        "role": "Supervisor"
+      },
+      {
+        "firstName": "Packston",
+        "lastName": "Bartens",
+        "role": "Project Manager"
+      }
+    ],
+    "equipment": [
+      {
+        "type": "Compactor",
+        "qty": 4
+      },
+      {
+        "type": "Dump Truck",
+        "qty": 1
+      },
+      {
+        "type": "Skid-Steer",
+        "qty": 8
+      }
+    ],
+    "supply": [
+      {
+        "material": "Granite",
+        "qty": 6
+      },
+      {
+        "material": "Vinyl",
+        "qty": 3
+      },
+      {
+        "material": "Granite",
+        "qty": 6
+      },
+      {
+        "material": "Brass",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "startDate": "2008-07-25",
+    "endDate": "2013-09-03",
+    "address": {
+      "street": "78894 Fordem Trail",
+      "city": "Rueil-Malmaison",
+      "region": "Île-de-France",
+      "country": "France"
+    },
+    "workers": [
+      {
+        "firstName": "Brooks",
+        "lastName": "Yakubov",
+        "role": "Engineer"
+      },
+      {
+        "firstName": "Elysha",
+        "lastName": "Grandisson",
+        "role": "Supervisor"
+      }
+    ],
+    "equipment": [
+      {
+        "type": "Dump Truck",
+        "qty": 8
+      },
+      {
+        "type": "Scraper",
+        "qty": 6
+      },
+      {
+        "type": "Dump Truck",
+        "qty": 4
+      }
+    ],
+    "supply": [
+      {
+        "material": "Rubber",
+        "qty": 4
+      },
+      {
+        "material": "Wood",
+        "qty": 5
+      },
+      {
+        "material": "Brass",
+        "qty": 7
+      },
+      {
+        "material": "Granite",
+        "qty": 0
+      }
+    ]
+  }
+]
