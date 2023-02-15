@@ -12,17 +12,44 @@
         const xhhtp = new XMLHttpRequest();
         xhhtp.onreadystatechange = function() {
             if(this.readyState == 4 && this.status == 200) {
-                displayData(this);
+                displayData(this.responseXML);
             }
         };
 
         xhhtp.open("GET" , "people.xml" , true);
         xhhtp.send();
 
-        function displayData(xml) {
-            const xmlDoc = xml.responseXML;
-            document.getElementById("text").innerHTML = xmlDoc.getElementByTagName("first_name")[0].childNodes[0].nodeValue;
-        }
+        function stringToNode(html)
+            {
+                const template = document.createElement(`template`);
+                html = html.trim();
+                template.innerHTML = html;
+                return template.content.firstChild;
+            }
+        function displayData(peopleDoc) 
+            {
+                const element = document.getElementById(`root`);
+                const nodes = peopleDoc.getElementsByTagName(`row`);
+                for (let index = 0; index < nodes.length; index++) 
+                {
+                    const node = nodes[index];
+                    const listItem = stringToNode(`<li>
+                    <h1>${
+                            node.getElementsByTagName(`first_name`)[0].childNodes[0]
+                            .nodeValue
+                        } 
+                        ${
+                        node.getElementsByTagName(`last_name`)[0].childNodes[0]
+                        .nodeValue
+                        }
+                    </h1>
+                    <strong>Email: ${node.getElementsByTagName(`email`)[0].childNodes[0].nodeValue}</strong>
+                    <em>Gender: ${node.getElementsByTagName(`gender`)[0].childNodes[0].nodeValue}</em>
+                    <b><p>IP Address: ${node.getElementsByTagName(`ip_address`)[0].childNodes[0].nodeValue}</p></b>
+                    </li>`);
+                element.appendChild(listItem);
+                }
+            }
     </script>
 </body>
 </html>

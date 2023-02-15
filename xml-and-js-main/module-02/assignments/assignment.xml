@@ -1,4 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<!DOCTYPE menuInfo
+[
+  <!ELEMENT menuInfo (title, summary, effective_Date, menu+)>
+  <!ELEMENT menu (category, menuItem)>
+  <!ELEMENT menuItem (itemName, description, price, indicator+)>
+  <!ELEMENT itemName (originalName, oldName)>
+  <!ELEMENT category (#PCDATA)>
+  <!ELEMENT description (#PCDATA)>
+  <!ELEMENT price (#PCDATA)>
+  <!ELEMENT indicator (#PCDATA)>
+  <!ELEMENT title (#PCDATA)>
+  <!ELEMENT summary (#PCDATA)>
+  <!ELEMENT effective_Date (#PCDATA)>
+  <!ELEMENT originalName (#PCDATA)>
+  <!ELEMENT oldName (#PCDATA)>
+]>
 <menuInfo>
   <title>Chester's Breakfast Menu</title>
   <summary>
@@ -8,7 +25,7 @@
     up just the way you like them!!
     ]]>
   </summary>
-  <effective Date>03/12/2016</effective Date>
+  <effective_Date>03/12/2016</effective_Date>
   <menu>
     <category>Traditional Favorites</category>
     <menuItem>
@@ -80,3 +97,6 @@
     </menuItem>
   </menu>
 </menuInfo>
+
+<!-- Name:Soundarya Hosur Gunalan-->
+<!-- ID: N01554007-->
