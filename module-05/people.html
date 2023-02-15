@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="text"></p>
+    <script>
+        const xhhtp = new XMLHttpRequest();
+        xhhtp.onreadystatechange = function() {
+            if(this.readyState == 4 && this.status == 200) {
+                displayData(this.responseXML);
+            }
+        };
+
+        xhhtp.open("GET" , "people.xml" , true);
+        xhhtp.send();
+
+        function stringToNode(html)
+            {
+                const template = document.createElement(`template`);
+                html = html.trim();
+                template.innerHTML = html;
+                return template.content.firstChild;
+            }
+        function displayData(peopleDoc) 
+            {
+                const element = document.getElementById(`root`);
+                const nodes = peopleDoc.getElementsByTagName(`row`);
+                for (let index = 0; index < nodes.length; index++) 
+                {
+                    const node = nodes[index];
+                    const listItem = stringToNode(`<li>
+                    <h1>${
+                            node.getElementsByTagName(`first_name`)[0].childNodes[0]
+                            .nodeValue
+                        } 
+                        ${
+                        node.getElementsByTagName(`last_name`)[0].childNodes[0]
+                        .nodeValue
+                        }
+                    </h1>
+                    <strong>Email: ${node.getElementsByTagName(`email`)[0].childNodes[0].nodeValue}</strong>
+                    <em>Gender: ${node.getElementsByTagName(`gender`)[0].childNodes[0].nodeValue}</em>
+                    <b><p>IP Address: ${node.getElementsByTagName(`ip_address`)[0].childNodes[0].nodeValue}</p></b>
+                    </li>`);
+                element.appendChild(listItem);
+                }
+            }
+    </script>
+</body>
+</html>

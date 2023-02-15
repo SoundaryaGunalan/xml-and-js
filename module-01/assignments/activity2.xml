@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<table>
+    <row1>
+        <name>Empno</name>
+        <data>
+            <data1>1001</data1>
+            <data2>1002</data2>
+            <data3>1003</data3>
+        </data>
+    </row1>
+
+    <row2>
+        <name>Empname</name>
+        <EmpName>
+            <name1>Alex</name1>
+            <name1>Sarah</name1>
+            <name1>Peter</name1>
+        </EmpName>
+    </row2>
+
+    <row3>
+        <name>Salary</name>
+        <salaries>
+            <salary1>3000</salary1>
+            <salary1>4000</salary1>
+            <salary1>3500</salary1>
+        </salaries>
+    </row3>
+</table>

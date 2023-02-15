@@ -1,7 +1,21 @@
 name {
   font-weight: bold;
+  font-style: italic;
 }
 
 * {
   display: block;
+  text-align: center;
+}
+
+originalName{
+  font-size: small;
+  font-family: 'Courier New', Courier, monospace;
+  display: block;
+}
+
+oldName{
+  font-size: large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: aqua;
 }

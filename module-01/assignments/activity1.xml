@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+</main>
+    <data1>
+        <name1>
+            <firstname>Soundarya</firstname>
+            <lastname>HosurGunalan</lastname>
+        </name1>
+        <hobbies1>
+            <hobby1>Cooking</hobby1>
+        </hobbies1>
+        <study>
+            <course>ITS</course>
+        </study>
+    </data1>
+
+    <data2>
+        <name2>
+            <firstname>Sujith</firstname>
+            <lastname>Bhat</lastname>
+        </name2>
+        <hobbies2>
+            <hobby1>Cricket</hobby1>
+        </hobbies2>
+    </data2>
+
+    <data3>
+        <name3>
+            <firstname>Swamy</firstname>
+            <lastname>Viveka</lastname>
+        </name3>
+        <hobbies3>
+            <hobby1>Philosophy</hobby1>
+        </hobbies3>
+    </data3>
+
+    <data4>
+        <name4>
+            <firstname>Rohit</firstname>
+            <lastname>Sharma</lastname>
+        </name4>
+        <hobbies4>
+            <hobby1>Football</hobby1>
+        </hobbies4>
+    </data4>
+
+    <data5>
+        <name5>
+            <firstname>Sharat</firstname>
+            <lastname>Raj</lastname>
+        </name5>
+        <hobbies5>
+            <hobby1>Drawing</hobby1>
+        </hobbies5>
+    </data5>
+
+</main>
