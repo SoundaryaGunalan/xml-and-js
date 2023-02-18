@@ -1,0 +1,56 @@
+{
+    "products": {
+      "product": [
+        {
+          "productName": "Dog Shirt Gift Basket",
+          "manufacturer": "SJB Pet Boutique",
+          "description": "Something for every day of the week",
+          "prices": {
+            "price": [
+              "US$35.99",
+              "CAD$44.99",
+              "&#8364;26.79"
+            ]
+          },
+          "productItems": "1200, 1201, 1202, 1203, 1204, 1205, 1206"
+        },
+        {
+          "productName": "Car Curiosity Basket",
+          "manufacturer": "SJB Pet Boutique",
+          "description": "Playtime morning, noon, and night",
+          "prices": {
+            "price": [
+              "US$15.99",
+              "CAD$18.82",
+              "&#8364;11.90"
+            ]
+          },
+          "productItems": "4430, 6500, 4434"
+        },
+        {
+          "productName": "Piggy Snuggle Basket",
+          "manufacturer": "ACME",
+          "prices": {
+            "price": [
+              "US$17.50",
+              "CAD$21.96",
+              "&#8364;13.03"
+            ]
+          },
+          "productItems": "3230, 3232"
+        },
+        {
+          "productName": "Dog Snuggle Basket",
+          "manufacturer": "ACME",
+          "prices": {
+            "price": [
+              "US$14.25",
+              "CAD$17.88",
+              "&#8364;10.61"
+            ]
+          },
+          "productItems": "3230, 3232, 3250"
+        }
+      ]
+    }
+  }
