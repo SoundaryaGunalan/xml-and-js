@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table {
+            border-collapse: collapse;
+            border: 2px solid;
+            margin: 5px;
+            width: 60%;
+        }
+        th, td {
+            border-collapse: collapse;
+            border: 1px solid;
+            padding: 2px;
+            padding: 4px;
+        }
+        th {
+            background-color: rgb(8, 214, 8);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 16px;
+        }
+        tr:nth-child(even) {
+            background-color: #e4e2e2;
+        }
+        h1 {
+            text-align: center;
+            color: brown;
+            font-size: 42px;
+            text-decoration: underline;
+        }
+        h2 {
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        h4 {
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <h1>ZOO IN CANADA</h1>
+    <ol id="zoo_Canada">
+    </ol>
+
+    <h1>ZOO IN UNITED STATES</h1>
+    <ol id="zoo_UnitedStates">
+    </ol>
+
+    <script>
+        const xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                displayData(this.responseXML);
+            }
+        };
+        xhttp.open("GET", "zoo.xml", true);
+        xhttp.send();
+
+        function stringToNode(html){
+            const template = document.createElement(`template`);
+            html = html.trim();
+            template.innerHTML = html;
+            return template.content.firstChild;
+        }
+
+        function displayData(xmlDoc){
+            const zoo_CanadaList = document.getElementById(`zoo_Canada`);
+            const zoo_UnitedStates_List = document.getElementById(`zoo_UnitedStates`);
+
+            const zooID = xmlDoc.getElementsByTagName(`zoo`);
+            const zooLocation = xmlDoc.getElementsByTagName(`location`);
+            
+           
+            for (let indexZoo = 0; indexZoo < zooID.length; indexZoo++){
+                const current_zooID = zooID[indexZoo];
+                const current_zooLocation = zooLocation[indexZoo];
+                //For zoo in Canada
+                if (current_zooLocation.getElementsByTagName(`country`)[0].childNodes[0].nodeValue == "Canada"){
+                    const zoo_Animals = current_zooID.getElementsByTagName(`animal`);
+                    let zooAnimalsList = ``;
+
+                    for (let animalIndex = 0; animalIndex < zoo_Animals.length; animalIndex++){
+                        const currentAnimal = zoo_Animals[animalIndex];
+                        zooAnimalsList += `
+                            <tr>
+                               <td>${currentAnimal.getElementsByTagName(`commonName`)[0].getAttribute(`givenName`)}</td>
+                               <td>${currentAnimal.getElementsByTagName(`commonName`)[0].childNodes[0].nodeValue}</td>
+                               <td>${currentAnimal.getAttribute(`scientificName`)}</td>
+                               <td>${currentAnimal.getElementsByTagName(`dob`)[0].childNodes[0].nodeValue}</td>
+                               <td>${currentAnimal.getElementsByTagName(`sex`)[0].childNodes[0].nodeValue}</td>
+                            </tr>
+                        `
+                    }
+
+                    const zooEmployees = current_zooID.getElementsByTagName(`employee`);
+                    let zooEmployeeList = ``;
+                    for (let employeeIndex = 0; employeeIndex < zooEmployees.length; employeeIndex++){
+                        const currentEmployee = zooEmployees[employeeIndex];
+                        zooEmployeeList += `
+                            <tr>
+                                <td>${currentEmployee.getElementsByTagName(`firstName`)[0].childNodes[0].nodeValue} ${currentEmployee.getElementsByTagName(`lastName`)[0].childNodes[0].nodeValue}</td>
+                                <td>${currentEmployee.getElementsByTagName(`position`)[0].childNodes[0].nodeValue}</td>
+                                <td>${currentEmployee.getElementsByTagName(`dobEmp`)[0].childNodes[0].nodeValue}</td>
+                                <td>${currentEmployee.getAttribute(`id`)}</td>
+                            </tr>
+                        `
+                    }
+
+                    //Element responsible for parsing XML to HTML:
+                    const canadaZoo_ItemLlist = stringToNode(`
+                        <li>
+                            <article>
+                                <h2>${current_zooLocation.getElementsByTagName(`city`)[0].childNodes[0].nodeValue}, ${current_zooLocation.getElementsByTagName(`region`)[0].childNodes[0].nodeValue}</h2>
+                                <h4>ZOO ID: ${current_zooID.getAttribute(`id`)}</h4>
+                                <h4>Visiting Hours: ${current_zooLocation.getAttribute(`openTime`)} - ${current_zooLocation.getAttribute(`closeTime`)}</h4>
+                                <div>
+                                    <table>
+                                        <tr>
+                                            <th>Animal Name</th>
+                                            <th>Animal Common Name</th>
+                                            <th>Animal Scientific Name</th>
+                                            <th>Animal D.o.B</th>
+                                            <th>Animal Gender</th>
+                                        </tr>
+                                        ${zooAnimalsList}
+                                    </table>
+                                </div>
+                                <div>
+                                    <table>
+                                        <tr>
+                                            <th>Employee Name</th>
+                                            <th>Position</th>
+                                            <th>D.o.B</th>
+                                            <th>Employee ID</th>
+                                        </tr>
+                                        ${zooEmployeeList}
+                                    </table>
+                                </div>
+                            </article>
+                        </li>
+                    `);
+                    zoo_CanadaList.append(canadaZoo_ItemLlist);
+                }
+
+                //For zoo in United States
+                if (current_zooLocation.getElementsByTagName(`country`)[0].childNodes[0].nodeValue == "United States"){
+                    const zoo_Animals = current_zooID.getElementsByTagName(`animal`);
+                    let zooAnimalsList = ``;
+
+                    for (let animalIndex = 0; animalIndex < zoo_Animals.length; animalIndex++){
+                        const currentAnimal = zoo_Animals[animalIndex];
+                        zooAnimalsList += `
+                            <tr>
+                               <td>${currentAnimal.getElementsByTagName(`commonName`)[0].getAttribute(`givenName`)}</td>
+                               <td>${currentAnimal.getElementsByTagName(`commonName`)[0].childNodes[0].nodeValue}</td>
+                               <td>${currentAnimal.getAttribute(`scientificName`)}</td>
+                               <td>${currentAnimal.getElementsByTagName(`dob`)[0].childNodes[0].nodeValue}</td>
+                               <td>${currentAnimal.getElementsByTagName(`sex`)[0].childNodes[0].nodeValue}</td>
+                            </tr>
+                        `
+                    }
+
+                    const zooEmployees = current_zooID.getElementsByTagName(`employee`);
+                    let zooEmployeeList = ``;
+                    for (let employeeIndex = 0; employeeIndex < zooEmployees.length; employeeIndex++){
+                        const currentEmployee = zooEmployees[employeeIndex];
+                        zooEmployeeList += `
+                            <tr>
+                                <td>${currentEmployee.getElementsByTagName(`firstName`)[0].childNodes[0].nodeValue} ${currentEmployee.getElementsByTagName(`lastName`)[0].childNodes[0].nodeValue}</td>
+                                <td>${currentEmployee.getElementsByTagName(`position`)[0].childNodes[0].nodeValue}</td>
+                                <td>${currentEmployee.getElementsByTagName(`dobEmp`)[0].childNodes[0].nodeValue}</td>
+                                <td>${currentEmployee.getAttribute(`id`)}</td>
+                            </tr>
+                        `
+                    }
+
+                    //Element responsible for parsing XML to HTML:
+                    const unitedStatesZoo_ItemLlist = stringToNode(`
+                        <li>
+                            <article>
+                                <h2>${current_zooLocation.getElementsByTagName(`city`)[0].childNodes[0].nodeValue}, ${current_zooLocation.getElementsByTagName(`region`)[0].childNodes[0].nodeValue}</h2>
+                                <h4>ZOO ID: ${current_zooID.getAttribute(`id`)}</h4>
+                                <h4>Visiting Hours: ${current_zooLocation.getAttribute(`openTime`)} - ${current_zooLocation.getAttribute(`closeTime`)}</h4>
+                                <div>
+                                    <table>
+                                        <tr>
+                                            <th>Animal Name</th>
+                                            <th>Animal Common Name</th>
+                                            <th>Animal Scientific Name</th>
+                                            <th>Animal D.o.B</th>
+                                            <th>Animal Gender</th>
+                                        </tr>
+                                        ${zooAnimalsList}
+                                    </table>
+                                </div>
+                                <div>
+                                    <table>
+                                        <tr>
+                                            <th>Employee Name</th>
+                                            <th>Position</th>
+                                            <th>D.o.B</th>
+                                            <th>Employee ID</th>
+                                        </tr>
+                                        ${zooEmployeeList}
+                                    </table>
+                                </div>
+                            </article>
+                        </li>
+                    `);
+                    zoo_UnitedStates_List.append(unitedStatesZoo_ItemLlist);
+                }
+
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="zoos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" name="zoo">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="location">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="city" type="xs:string" />
+                    <xs:element name="region" type="xs:string" />
+                    <xs:element name="country" type="xs:string" />
+                  </xs:sequence>
+                  <xs:attribute name="openTime" type="xs:string" use="required" />
+                  <xs:attribute name="closeTime" type="xs:string" use="required" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="animals">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="animal">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="commonName">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute name="givenName" type="xs:string" use="required" />
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="dob" type="xs:date" />
+                          <xs:element name="sex" type="xs:string" />
+                        </xs:sequence>
+                        <xs:attribute name="scientificName" type="xs:string" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="employees">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="employee">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="firstName" type="xs:string" />
+                          <xs:element name="lastName" type="xs:string" />
+                          <xs:element name="dobEmp" type="xs:date" />
+                          <xs:element name="position" type="xs:string" />
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:string" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:string" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

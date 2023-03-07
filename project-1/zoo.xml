@@ -1,0 +1,1142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zoos>
+    <!-- Zoo Number: 1-->
+    <zoo id = "5c96afec-320a-47df-b819-fee84075cf9e">
+        <location openTime = "13:03" closeTime = "21:45">
+            <city>Antigonish</city>
+            <region>Nova Scotia</region>
+            <country>Canada</country>
+        </location>
+        <animals>
+            <!--Animal 1-->
+            <animal scientificName = "Motacilla aguimp">
+                <commonName givenName = "Kelby">Wagtail, african pied</commonName>
+                <dob>2015-02-12</dob>
+                <sex>Male</sex>
+            </animal>
+            <!--Animal 2-->
+            <animal scientificName = "Dasypus septemcincus">
+                <commonName givenName = "Bent">Armadillo, seven-banded</commonName>
+                <dob>2013-07-27</dob>
+                <sex>Male</sex>
+            </animal>
+            <!--Animal 3-->
+            <animal scientificName = "Phalaropus lobatus">
+                <commonName givenName = "Hughie">Red-necked phalarope</commonName>
+                <dob>2021-02-24</dob>
+                <sex>Male</sex>
+            </animal>
+            <!--Animal 4-->
+            <animal scientificName = "Phascogale tapoatafa">
+                <commonName givenName = "Buffy">Brush-tailed phascogale</commonName>
+                <dob>2008-09-01</dob>
+                <sex>Female</sex>
+            </animal>
+            <!--Animal 5-->
+            <animal scientificName = "Kobus defassa">
+                <commonName givenName = "Gradeigh">Defassa waterbuck</commonName>
+                <dob>2002-02-18</dob>
+                <sex>Male</sex>
+            </animal>
+            <!--Animal 6-->
+            <animal scientificName = "Grus antigone">
+                <commonName givenName = "Mozelle">Sarus crane</commonName>
+                <dob>2016-09-27</dob>
+                <sex>Female</sex>
+            </animal>
+            <!--Animal 7-->
+            <animal scientificName = "Tayassu pecari">
+                <commonName givenName = "Dukie">White-lipped peccary</commonName>
+                <dob>2017-07-18</dob>
+                <sex>Male</sex>
+            </animal>
+        </animals>
+        <employees>
+            <!--Employee 1-->
+            <employee id = "13947974-9607-4f9f-aa04-b0ee67e26cd9">
+                <firstName>Andres</firstName>
+                <lastName>Faragan</lastName>
+                <dobEmp>1981-01-02</dobEmp>
+                <position>Developer II</position>
+            </employee>
+            <!--Employee 2-->
+            <employee id = "5f60de00-a979-40cb-a2da-8b3cc97aa2fa">
+                <firstName>Elita</firstName>
+                <lastName>Topling</lastName>
+                <dobEmp>1972-11-10</dobEmp>
+                <position>Software Engineer IV</position>
+            </employee>
+            <!--Employee 3-->
+            <employee id = "683f2906-185f-4655-a3d0-080931ff48ab">
+                <firstName>Merry</firstName>
+                <lastName>Dawidman</lastName>
+                <dobEmp>1987-05-19</dobEmp>
+                <position>Nurse</position>
+            </employee>
+        </employees>
+    </zoo>
+
+    <!--Zoo Number: 2-->
+    <zoo id = "63494c41-ea16-4efd-a275-aab9d009c833">
+        <location openTime = "16:13" closeTime = "18:11">
+            <city>Niverville</city>
+            <region>Manitoba</region>
+            <country>Canada</country>
+        </location>
+        <animals>
+            <!-- Animal 1-->
+            <animal scientificName = "Tapirus terrestris">
+                <commonName givenName = "Kelvin">Brazilian tapir</commonName>
+                <dob>2017-12-15</dob>
+                <sex>Male</sex>
+            </animal>
+            <!-- Animal 2-->
+            <animal scientificName = "Cacatua galerita">
+                <commonName givenName = "Pippy">Cockatoo, sulfur-crested</commonName>
+                <dob>2005-03-22</dob>
+                <sex>Female</sex>
+            </animal>
+            <!-- Animal 3-->
+            <animal scientificName = "unavailable">
+                <commonName givenName = "Filippa">Sea birds (unidentified)</commonName>
+                <dob>2013-03-11</dob>
+                <sex>Female</sex>
+            </animal>
+            <!-- Animal 4-->
+            <animal scientificName = "Sagittarius serpentarius">
+                <commonName givenName = "Marilin">Secretary bird</commonName>
+                <dob>2002-05-08</dob>
+                <sex>Female</sex>
+            </animal>
+            <!-- Animal 5-->
+            <animal scientificName = "Ara ararauna">
+                <commonName givenName = "Mannie">Blue and yellow macaw</commonName>
+                <dob>2018-04-04</dob>
+                <sex>Male</sex>
+            </animal>
+            <!-- Animal 6-->
+            <animal scientificName = "Manouria emys">
+                <commonName givenName = "Gaby">Tortoise, asian foreset</commonName>
+                <dob>2013-01-30</dob>
+                <sex>Female</sex>
+            </animal>
+            <!-- Animal 7-->
+            <animal scientificName = "Orcinus orc">
+                <commonName givenName = "Yolanda">Whale, killer</commonName>
+                <dob>2006-04-09</dob>
+                <sex>Female</sex>
+            </animal>
+        </animals>
+        <employees>
+            <!-- Employee 1-->
+            <employee id = "475b7cff-3fad-47ee-a0d0-8707f0c71c35">
+                <firstName>Pen</firstName>
+                <lastName>Frisby</lastName>
+                <dobEmp>1978-05-11</dobEmp>
+                <position>Help Desk Technician</position>
+            </employee>
+            <!-- Employee 2-->
+            <employee id = "ca5d5b0c-e371-4707-be22-cbb7c7ac34ac">
+                <firstName>Penn</firstName>
+                <lastName>Risso</lastName>
+                <dobEmp>1992-07-09</dobEmp>
+                <position>VP Accounting</position>
+            </employee>
+            <!-- Employee 3-->
+            <employee id = "24f75a34-ca7e-49dc-8908-39ec10d0cb58">
+                <firstName>Catina</firstName>
+                <lastName>Ahren</lastName>
+                <dobEmp>1975-05-28</dobEmp>
+                <position>Graphic Designer</position>
+            </employee>
+        </employees>
+    </zoo>
+
+    <!-- Zoo Number: 3-->
+    <zoo id = "d3ca91ad-be1a-4689-8688-ec455403a1c6">
+        <location openTime = "12:35" closeTime = "21:13">
+            <city>Kissimmee</city>
+            <region>Florida</region>
+            <country>United States</country>
+        </location>
+        <animals>
+            <!-- Animal 1-->
+            <animal scientificName = "Haematopus ater">
+                <commonName givenName = "Casey">Oystercatcher, blackish</commonName>
+                <dob>2005-06-16</dob>
+                <sex>Male</sex>
+            </animal>
+            <!-- Animal 2-->
+            <animal scientificName = "Eudyptula minor">
+                <commonName givenName = "Evered">Penguin, fairy</commonName>
+                <dob>2021-05-09</dob>
+                <sex>Male</sex>
+            </animal>
+            <!-- Animal 3-->
+            <animal scientificName = "Haematopus ater">
+                <commonName givenName = "Gerrard">Oystercatcher, blackish</commonName>
+                <dob>2011-01-08</dob>
+                <sex>Male</sex>
+            </animal>
+            <!-- Animal 4-->
+            <animal scientificName = "Aonyx capensis">
+                <commonName givenName = "Sarah">Cape clawless otter</commonName>
+                <dob>2007-11-02</dob>
+                <sex>Female</sex>
+            </animal>
+            <!-- Animal 5-->
+            <animal scientificName = "Eira barbata">
+                <commonName givenName = "Pavlov">Tayra</commonName>
+                <dob>2021-11-17</dob>
+                <sex>Female</sex>
+            </animal>
+            <!-- Animal 6-->
+            <animal scientificName = "Boa caninus">
+                <commonName givenName = "Genia">Boa, emerald green tree</commonName>
+                <dob>2018-05-23</dob>
+                <sex>Female</sex>
+            </animal>
+            <!-- Animal 7-->
+            <animal scientificName = "Philetairus socius">
+                <commonName givenName = "Thurston">Sociable weaver</commonName>
+                <dob>2004-07-18</dob>
+                <sex>Male</sex>
+            </animal>
+        </animals>
+        <employees>
+            <!-- Employee 1-->
+            <employee id = "59d7775a-32f5-4985-a168-71ce640a0243">
+                <firstName>Carly</firstName>
+                <lastName>Bluck</lastName>
+                <dobEmp>1973-10-03</dobEmp>
+                <position>Human Resources Manager</position>
+            </employee>
+            <!-- Employee 2-->
+            <employee id = "80ff56d5-27ec-4638-8982-08ba6971078e">
+                <firstName>Codee</firstName>
+                <lastName>Bow</lastName>
+                <dobEmp>1974-07-31</dobEmp>
+                <position>Executive Secretary</position>
+            </employee>
+            <!-- Employee 3-->
+            <employee id = "90c79732-9a54-4d87-8c79-dd3f62c4027c">
+                <firstName>Alexandro</firstName>
+                <lastName>Barehead</lastName>
+                <dobEmp>1971-09-28</dobEmp>
+                <position>Desktop Support Technician</position>
+            </employee>
+        </employees>
+    </zoo>
+
+    <!-- Zoo Number: 4-->
+    <zoo id = "06a94b12-3882-4379-ab07-4b14898e3980">
+        <location openTime = "6:44" closeTime = "18:17">
+            <city>Boissevain</city>
+            <region>Manitoba</region>
+            <country>Canada</country>
+        </location>
+        <animals>
+            <!-- Animal 1-->
+            <animal scientificName = "Ceratotherium simum">
+                <commonName givenName = "Lenette">White rhinoceros</commonName>
+                <dob>2012-04-08</dob>
+                <sex>Female</sex>
+            </animal>
+            <!-- Animal 2-->
+            <animal scientificName = "Ctenophorus ornatus">
+                <commonName givenName = "Garrek">Netted rock dragon</commonName>
+                <dob>2004-03-15</dob>
+                <sex>Male</sex>
+            </animal>
+            <!-- Animal 3-->
+            <animal scientificName = "Sitta canadensis">
+                <commonName givenName = "Flynn">Red-breasted nuthatch</commonName>
+                <dob>2017-02-15</dob>
+                <sex>Bigender</sex>
+            </animal>
+            <!-- Animal 4-->
+            <animal scientificName = "Gabianus pacificus">
+                <commonName givenName = "Jacinta">Gull, pacific</commonName>
+                <dob>2010-12-22</dob>
+                <sex>Female</sex>
+            </animal>
+            <!-- Animal 5-->
+            <animal scientificName = "Platalea leucordia">
+                <commonName givenName = "Karena">Spoonbill, european</commonName>
+                <dob>2006-02-18</dob>
+                <sex>Female</sex>
+            </animal>
+            <!-- Animal 6-->
+            <animal scientificName = "Dusicyon thous">
+                <commonName givenName = "Tuesday">Fox, savanna</commonName>
+                <dob>2002-08-11</dob>
+                <sex>Female</sex>
+            </animal>
+            <!-- Animal 7-->
+            <animal scientificName = "Speotyte cuniculata">
+                <commonName givenName = "Alden">Burrowing owl</commonName>
+                <dob>2018-12-14</dob>
+                <sex>Male</sex>
+            </animal>
+        </animals>
+        <employees>
+            <!-- Employee 1-->
+            <employee id = "fbe5d3de-c13b-46da-b3b2-7c745afd885d">
+                <firstName>Lorry</firstName>
+                <lastName>Orehead</lastName>
+                <dobEmp>1970-04-22</dobEmp>
+                <position>Software Test Engineer IV</position>
+            </employee>
+            <!-- Employee 2-->
+            <employee id = "e738c01d-cea5-4d51-b54e-c47afe43ae7c">
+                <firstName>Christian</firstName>
+                <lastName>Giacovetti</lastName>
+                <dobEmp>1997-04-15</dobEmp>
+                <position>Chemical Engineer</position>
+            </employee>
+            <!-- Employee 3-->
+            <employee id = "b49d839b-9f4c-4dc4-a769-e2971bd7d852">
+                <firstName>Pennie</firstName>
+                <lastName>Mapam</lastName>
+                <dobEmp>1985-03-01</dobEmp>
+                <position>Internal Auditor</position>
+            </employee>
+        </employees>
+    </zoo>
+
+    <!-- Zoo Number: 5-->
+    <zoo id = "edc5f09e-9d4d-454a-897e-56f51a770e36">
+        <location openTime = "8:21" closeTime = "18:51">
+            <city>Tacoma</city>
+            <region>Washington</region>
+            <country>United States</country>
+        </location>
+        <animals>
+            <!-- Animal 1-->
+            <animal scientificName = "Lycosa godeffroyi">
+                <commonName givenName = "Janessa">Spider, wolf</commonName>
+                <dob>2011-08-07</dob>
+                <sex>Female</sex>
+            </animal>
+            <!-- Animal 2-->
+            <animal scientificName = "Uraeginthus granatina">
+                <commonName givenName = "Bertie">Grenadier, common</commonName>
+                <dob>2021-01-25</dob>
+                <sex>Male</sex>
+            </animal>
+            <!-- Animal 3-->
+            <animal scientificName = "casmerodius albus">
+                <commonName givenName = "Stefan">Great egret</commonName>
+                <dob>2016-03-30</dob>
+                <sex>Male</sex>
+            </animal>
+            <!-- Animal 4-->
+            <animal scientificName = "Phalacrocorax niger">
+                <commonName givenName = "Burty">Cormorant, little</commonName>
+                <dob>2001-07-13</dob>
+                <sex>Bigender</sex>
+            </animal>
+            <!-- Animal 5-->
+            <animal scientificName = "Odocoileus hemionus">
+                <commonName givenName = "Monte">Deer, mule</commonName>
+                <dob>2018-07-29</dob>
+                <sex>Male</sex>
+            </animal>
+            <!-- Animal 6-->
+            <animal scientificName = "unavailable">
+                <commonName givenName = "Candace">Turtle (unidentified)</commonName>
+                <dob>2020-08-30</dob>
+                <sex>Female</sex>
+            </animal>
+            <!-- Animal 7-->
+            <animal scientificName = "Ceratotherium simum">
+                <commonName givenName = "Bernarr">Square-lipped rhinoceros</commonName>
+                <dob>2001-09-10</dob>
+                <sex>Male</sex>
+            </animal>
+        </animals>
+        <employees>
+            <!-- Employe 1-->
+            <employee id = "fa5e2361-8137-4645-adda-48dc5d8550e6">
+                <firstName>Rod</firstName>
+                <lastName>Wimmers</lastName>
+                <dobEmp>1992-01-26</dobEmp>
+                <position>Desktop Support Technician</position>
+            </employee>
+            <!-- Employe 2-->
+            <employee id = "49e8488c-4414-4ca2-95f7-c0e01413bee8">
+                <firstName>Horatia</firstName>
+                <lastName>Senett</lastName>
+                <dobEmp>1976-08-28</dobEmp>
+                <position>Developer I</position>
+            </employee>
+            <!-- Employe 3-->
+            <employee id = "dcdfa260-ec50-4a66-a5c8-3b9687d465cf">
+                <firstName>Jacquelin</firstName>
+                <lastName>Lightwing</lastName>
+                <dobEmp>1974-10-30</dobEmp>
+                <position>Adninistrative Officer</position>
+            </employee>
+        </employees>
+    </zoo>
+
+    <!-- Zoo Number: 6-->
+    <zoo id = "7ffe29d2-b76e-432a-861e-50551763cbcb">
+        <location openTime = "20:05" closeTime = "21:40">
+            <city>Dallas</city>
+            <region>Texas</region>
+            <country>United States</country>
+        </location>
+        <animals>
+            <!-- Animal 1-->
+            <animal scientificName = "Spermophilus parryii">
+                <commonName givenName = "Melamie">Squirrel, arctic ground</commonName>
+                <dob>2012-07-23</dob>
+                <sex>Female</sex>
+            </animal>
+            <!-- Animal 2-->
+            <animal scientificName = "Leprocaulinus vipera">
+                <commonName givenName = "Roland">Insect, stick</commonName>
+                <dob>2001-04-21</dob>
+                <sex>Male</sex>
+            </animal>
+            <!-- Animal 3-->
+            <animal scientificName = "Francolinus coqui">
+                <commonName givenName = "Alonzo">Francolin, coqui</commonName>
+                <dob>2011-09-05</dob>
+                <sex>Male</sex>
+            </animal>
+            <!-- Animal 4-->
+            <animal scientificName = "Naja nivea">
+                <commonName givenName = "Crystie">Cape cobra"</commonName>
+                <dob>2009-01-11</dob>
+                <sex>Female</sex>
+            </animal>
+            <!-- Animal 5-->
+            <animal scientificName = "Rhabdomys pumilio">
+                <commonName givenName = "Delmore">Four-striped grass mouse</commonName>
+                <dob>2006-04-25</dob>
+                <sex>Male</sex>
+            </animal>
+            <!-- Animal 6-->
+            <animal scientificName = "Meles meles">
+                <commonName givenName = "Camille">Badger, eurasian</commonName>
+                <dob>2021-07-02</dob>
+                <sex>Female</sex>
+            </animal>
+            <!-- Animal 7-->
+            <animal scientificName = "Orcinus orca">
+                <commonName givenName = "Zerk">Whale, killer</commonName>
+                <dob>2016-04-29</dob>
+                <sex>Male</sex>
+            </animal>
+        </animals>
+        <employees>
+            <!-- Employee 1-->
+            <employee id = "5c21b414-db3a-4607-af16-f4eaac80b145">
+                <firstName>Rhett</firstName>
+                <lastName>Lymer</lastName>
+                <dobEmp>1987-04-22</dobEmp>
+                <position>Sales Associate</position>
+            </employee>
+            <!-- Employee 2-->
+            <employee id = "abbae514-547a-4ceb-82a1-ea2934f25a77">
+                <firstName>Kristel</firstName>
+                <lastName>Sighard</lastName>
+                <dobEmp>1980-04-25</dobEmp>
+                <position>Human Resources Assistance IV</position>
+            </employee>
+            <!-- Employee 3-->
+            <employee id = "e3f3f3d7-f11f-435a-a195-c0b7f34c7ad4">
+                <firstName>Fairlie</firstName>
+                <lastName>Bromidge</lastName>
+                <dobEmp>1993-06-25</dobEmp>
+                <position>Safety Technician I</position>
+            </employee>
+        </employees>
+    </zoo>
+
+    <!-- Zoo Number: 7-->
+    <zoo id = "72d06611-3e9b-4a59-9c86-8861faa98743">
+        <location openTime = "10:53" closeTime = "20:24">
+            <city>Greensboro</city>
+            <region>North Carolina</region>
+            <country>United States</country>
+        </location>
+        <animals>
+            <!-- Animal 1-->
+            <animal scientificName = "Larus fuliginosus">
+                <commonName givenName = "Glendon">Gull, lava</commonName>
+                <dob>2016-03-31</dob>
+                <sex>Male</sex>
+            </animal>
+            <!-- Animal 2-->
+            <animal scientificName = "Grus canadensis">
+                <commonName givenName = "Tiffani">Sandhill crane</commonName>
+                <dob>2004-12-20</dob>
+                <sex>Female</sex>
+            </animal>
+            <!-- Animal 3-->
+            <animal scientificName = "Halcyon smyrnesis">
+                <commonName givenName = "Cort">White-throated kingfisher</commonName>
+                <dob>2010-02-27</dob>
+                <sex>Male</sex>
+            </animal>
+            <!-- Animal 4-->
+            <animal scientificName = "Haematopus ater">
+                <commonName givenName = "Peggie">Curlew, black</commonName>
+                <dob>2000-10-13</dob>
+                <sex>Female</sex>
+            </animal>
+            <!-- Animal 5-->
+            <animal scientificName = "Paraxerus cepapi">
+                <commonName givenName = "Denver">Squirrel, smith's bush</commonName>
+                <dob>2015-06-17</dob>
+                <sex>Female</sex>
+            </animal>
+            <!-- Animal 6-->
+            <animal scientificName = "Butorides striatus">
+                <commonName givenName = "Riley">Green-backed heron</commonName>
+                <dob>2004-10-23</dob>
+                <sex>Female</sex>
+            </animal>
+            <!-- Animal 7-->
+            <animal scientificName = "Buteo galapagoensis">
+                <commonName givenName = "Tatiania">Hawk, galapagos</commonName>
+                <dob>2001-05-16</dob>
+                <sex>Female</sex>
+            </animal>
+        </animals>
+        <employees>
+            <!-- Employee 1-->
+            <employee id = "0899c460-7750-4718-9cc8-4430b6a850b0">
+                <firstName>Benson</firstName>
+                <lastName>Feldstein</lastName>
+                <dobEmp>1992-07-13</dobEmp>
+                <position>Software Consultant</position>
+            </employee>
+            <!-- Employee 2-->
+            <employee id = "70f263ee-ad9f-4a97-a9d1-c47fd39c5c24">
+                <firstName>Mata</firstName>
+                <lastName>Fouracres</lastName>
+                <dobEmp>1976-07-06</dobEmp>
+                <position>Administrative Officer</position>
+            </employee>
+            <!-- Employee 3-->
+            <employee id = "905c72ad-d340-403f-b619-c93f17fac0ec">
+                <firstName>Deirdre</firstName>
+                <lastName>Bagster</lastName>
+                <dobEmp>1969-05-27</dobEmp>
+                <position>Accounting Assistance I</position>
+            </employee>
+        </employees>
+    </zoo>
+
+    <!-- Zoo Number: 8-->
+    <zoo id = "45e36948-f985-43f7-8007-491697edea98">
+        <location openTime = "14:32" closeTime = "20:46">
+            <city>Phoenix</city>
+            <region>Arizona</region>
+            <country>United States</country>
+        </location>
+        <animals>
+            <!-- Animal 1-->
+            <animal scientificName = "Eunectes sp.">
+                <commonName givenName = "Oren">Anaconda (unidentified)</commonName>
+                <dob>2013-08-21</dob>
+                <sex>Male</sex>
+            </animal>
+            <!-- Animal 2-->
+            <animal scientificName = "Sceloporus magister">
+                <commonName givenName = "Bastian">Lizard, desert spiny</commonName>
+                <dob>2016-04-30</dob>
+                <sex>Male</sex>
+            </animal>
+            <!-- Animal 3-->
+            <animal scientificName = "Taurotagus oryx">
+                <commonName givenName = "Allison">Eland, common</commonName>
+                <dob>2008-11-09</dob>
+                <sex>Female</sex>
+            </animal>
+            <!-- Animal 4-->
+            <animal scientificName = "Tockus flavirostris">
+                <commonName givenName = "Madelaine">Yellow-billed hornbill</commonName>
+                <dob>2007-08-14</dob>
+                <sex>Female</sex>
+            </animal>
+            <!-- Animal 5-->
+            <animal scientificName = "Philetairus socius">
+                <commonName givenName = "Darrell">Sociable weaver</commonName>
+                <dob>2022-05-20</dob>
+                <sex>Male</sex>
+            </animal>
+            <!-- Animal 6-->
+            <animal scientificName = "Eira barbata">
+                <commonName givenName = "Umberto">Tayra</commonName>
+                <dob>2015-06-16</dob>
+                <sex>Male</sex>
+            </animal>
+            <!-- Animal 7-->
+            <animal scientificName = "Phasianus colchicus">
+                <commonName givenName = "Evonne">Ring-necked pheasant</commonName>
+                <dob>2013-11-25</dob>
+                <sex>Female</sex>
+            </animal>
+        </animals>
+        <employees>
+            <!-- Employee 1-->
+            <employee id = "e4da307f-e307-43f7-8d1f-fcf0d98aea63">
+                <firstName>Pauly</firstName>
+                <lastName>Brunton</lastName>
+                <dobEmp>1991-11-14</dobEmp>
+                <position>Staff Scientist</position>
+            </employee>
+            <!-- Employee 2-->
+            <employee id = "6f9e19d1-2ca0-4562-ab94-b02fc617a369">
+                <firstName>Vivianne</firstName>
+                <lastName>Methley</lastName>
+                <dobEmp>1972-06-13</dobEmp>
+                <position>Help Desk Technician</position>
+            </employee>
+            <!-- Employee 3-->
+            <employee id = "0e2e6ea9-7c3a-41c8-8af6-49bd4d8f38bd">
+                <firstName>Lauren</firstName>
+                <lastName>Moorerud</lastName>
+                <dobEmp>1981-08-06</dobEmp>
+                <position>Nuclear Power Engineer</position>
+            </employee>
+        </employees>
+    </zoo>
+
+    <!-- Zoo Number: 9-->
+    <zoo id = "d04a611b-f2bb-402b-a815-6ead79dad113">
+        <location openTime = "17:17" closeTime = "20:22">
+            <city>Santa Ana</city>
+            <region>California</region>
+            <country>United States</country>
+        </location>
+        <animals>
+            <!-- Animal 1-->
+            <animal scientificName = "Oreamnos americanus">
+                <commonName givenName = "Goat, mountain">Paulie</commonName>
+                <dob>2004-06-22</dob>
+                <sex>Male</sex>
+            </animal>
+            <!-- Animal 2-->
+            <animal scientificName = "Myrmecophaga tridactyla">
+                <commonName givenName = "Isidora">Anteater, giant</commonName>
+                <dob>2008-10-18</dob>
+                <sex></sex>
+            </animal>
+            <!-- Animal 3-->
+            <animal scientificName = "Branta canadensis">
+                <commonName givenName = "Amerigo">Canada goose</commonName>
+                <dob>2005-09-08</dob>
+                <sex>Male</sex>
+            </animal>
+            <!-- Animal 4-->
+            <animal scientificName = "Ursus maritimus">
+                <commonName givenName = "Darrin">Bear, polar</commonName>
+                <dob>2002-06-24</dob>
+                <sex>Male</sex>
+            </animal>
+            <!-- Animal 5-->
+            <animal scientificName = "Himantopus himantopus">
+                <commonName givenName = "Prinz">Stilt, black-winged</commonName>
+                <dob>2017-01-31</dob>
+                <sex>Male</sex>
+            </animal>
+            <!-- Animal 6-->
+            <animal scientificName = "unavailable">
+                <commonName givenName = "Filmore">Red-winged hawk (unidentified)</commonName>
+                <dob>2020-11-13</dob>
+                <sex>Male</sex>
+            </animal>
+            <!-- Animal 7-->
+            <animal scientificName = "Nucifraga columbiana">
+                <commonName givenName = "Arlee">Nutcracker, clark's</commonName>
+                <dob>2013-01-26</dob>
+                <sex>Female</sex>
+            </animal>
+        </animals>
+        <employees>
+            <!-- Employee 1-->
+            <employee id = "25a49ab0-1439-49cc-b8d9-b8683df74a7f">
+                <firstName>Leeland</firstName>
+                <lastName>Kewsish</lastName>
+                <dobEmp>1995-11-10</dobEmp>
+                <position>Financial Analyst</position>
+            </employee>
+            <!-- Employee 2-->
+            <employee id = "96de1826-f17d-4429-9f23-2b5aaebb9809">
+                <firstName>Owen</firstName>
+                <lastName>Johnke</lastName>
+                <dobEmp>1997-01-03</dobEmp>
+                <position>VP Sales</position>
+            </employee>
+            <!-- Employee 3-->
+            <employee id = "091f5ed5-bce9-46a8-80fa-50da40fbe76d">
+                <firstName>Glenden</firstName>
+                <lastName>Greaves</lastName>
+                <dobEmp>1997-06-05</dobEmp>
+                <position>Senior Developer</position>
+            </employee>
+        </employees>
+    </zoo>
+
+    <!-- Zoo Number: 10-->
+    <zoo id = "d3d2e002-ce92-46dc-9761-cde67f154073">
+        <location openTime = "14:40" closeTime = "21:37">
+            <city>Tampa</city>
+            <region>Florida</region>
+            <country>United States</country>
+        </location>
+        <animals>
+            <!-- Animal 1-->
+            <animal scientificName = "Acrantophis madagascariensis">
+                <commonName givenName = "Hector">Eastern boa constrictor</commonName>
+                <dob>2014-10-03</dob>
+                <sex>Male</sex>
+            </animal>
+            <!-- Animal 2-->
+            <animal scientificName = "Eudromia elegans">
+                <commonName givenName = "Rowney">Elegant crested tinamou</commonName>
+                <dob>2014-10-24</dob>
+                <sex>Male</sex>
+            </animal>
+            <!-- Animal 3-->
+            <animal scientificName = "Tachyglossus aculeatus">
+                <commonName givenName = "Arman">Anteater, australian spiny</commonName>
+                <dob>2012-01-29</dob>
+                <sex>Male</sex>
+            </animal>
+            <!-- Animal 4-->
+            <animal scientificName = "Dasypus novemcinctus">
+                <commonName givenName = "Sheffield">Common long-nosed armadillo</commonName>
+                <dob>2010-11-19</dob>
+                <sex>Male</sex>
+            </animal>
+            <!-- Animal 5-->
+            <animal scientificName = "Loxodonta africana">
+                <commonName givenName = "Sim">Elephant, african</commonName>
+                <dob>2018-11-14</dob>
+                <sex>Male</sex>
+            </animal>
+            <!-- Animal 6-->
+            <animal scientificName = "Raphicerus campestris">
+                <commonName givenName = "Gunner">Steenbuck</commonName>
+                <dob>2000-12-27</dob>
+                <sex>Male</sex>
+            </animal>
+            <!-- Animal 7-->
+            <animal scientificName = "Creagrus furcatus">
+                <commonName givenName = "Kiersten">Swallow-tail gull</commonName>
+                <dob>2003-04-26</dob>
+                <sex>Female</sex>
+            </animal>
+        </animals>
+        <employees>
+            <!--Employee 1-->
+            <employee id = "93e56f55-ea47-42c8-9fd7-ccc948229763">
+                <firstName>Melanie</firstName>
+                <lastName>Abernethy</lastName>
+                <dobEmp>1983-01-19</dobEmp>
+                <position>Financial Analyst</position>
+            </employee>
+            <!--Employee 2-->
+            <employee id = "0556995b-3612-408d-b6d0-ad2e68b142cf">
+                <firstName>Karlotta</firstName>
+                <lastName>Dowdle</lastName>
+                <dobEmp>1971-12-08</dobEmp>
+                <position>Budget/Accounting Analyst III</position>
+            </employee>
+            <!--Employee 3-->
+            <employee id = "8cd7da11-ebed-4dd6-8c36-cf18128f480e">
+                <firstName>Feodor</firstName>
+                <lastName>Fearneley</lastName>
+                <dobEmp>1969-07-18</dobEmp>
+                <position>Budget/Accounting Analyst II</position>
+            </employee>
+        </employees>
+    </zoo>
+
+    <!-- Zoo Number: 11-->
+    <zoo id = "dc11c866-0087-4850-ba22-957577e83702">
+        <location openTime = "18:25" closeTime = "19:03">
+            <city>Stonewall</city>
+            <region>Manitoba</region>
+            <country>Canada</country>
+        </location>
+        <animals>
+            <!-- Animal 1-->
+            <animal scientificName = "Nycticorax nycticorax">
+                <commonName givenName = "Erwin">Black-crowned night heron</commonName>
+                <dob>2015-01-24</dob>
+                <sex>Male</sex>
+            </animal>
+            <!-- Animal 2-->
+            <animal scientificName = "Zenaida asiatica">
+                <commonName givenName = "Vassili">Dove, white-winged</commonName>
+                <dob>2014-01-27</dob>
+                <sex>Male</sex>
+            </animal>
+            <!-- Animal 3-->
+            <animal scientificName = "Ictalurus furcatus">
+                <commonName givenName = "Darell">Blue catfish</commonName>
+                <dob>2013-02-16</dob>
+                <sex>Female</sex>
+            </animal>
+            <!-- Animal 4-->
+            <animal scientificName = "Tamiasciurus hudsonicus">
+                <commonName givenName = "Kirstyn">Red squirrel</commonName>
+                <dob>2004-04-05</dob>
+                <sex>Female</sex>
+            </animal>
+            <!-- Animal 5-->
+            <animal scientificName = "Ninox superciliaris">
+                <commonName givenName = "Abba">Owl, madagascar hawk</commonName>
+                <dob>2013-10-03</dob>
+                <sex>Male</sex>
+            </animal>
+            <!-- Animal 6-->
+            <animal scientificName = "Macropus rufogriseus">
+                <commonName givenName = "Hyacinth">Wallaby, bennett's</commonName>
+                <dob>2011-03-23</dob>
+                <sex>Female</sex>
+            </animal>
+            <!-- Animal 7-->
+            <animal scientificName = "Lemur catta">
+                <commonName givenName = "Hershel">Ring-tailed lemur</commonName>
+                <dob>2005-10-05</dob>
+                <sex>Male</sex>
+            </animal>
+        </animals>
+        <employees>
+            <!-- Employee 1-->
+            <employee id = "6f383126-519e-4632-a5bb-4fcf70ff0141">
+                <firstName>Leslie</firstName>
+                <lastName>Pantecost</lastName>
+                <dobEmp>1998-01-12</dobEmp>
+                <position>Help Desk Technician</position>
+            </employee>
+            <!-- Employee 2-->
+            <employee id = "8dc60e50-e1de-4140-8d9c-42402274f8ab">
+                <firstName>Lissy</firstName>
+                <lastName>Gethyn</lastName>
+                <dobEmp>1987-04-10</dobEmp>
+                <position>Statistician III</position>
+            </employee>
+            <!-- Employee 3-->
+            <employee id = "d1a8f825-8157-445e-8e93-eed3264e5a12">
+                <firstName>Dermot</firstName>
+                <lastName>Bean</lastName>
+                <dobEmp>1979-12-02</dobEmp>
+                <position>Senior Quality Engineer</position>
+            </employee>
+        </employees>
+    </zoo>
+
+    <!-- Zoo Number: 12-->
+    <zoo id = "edfebc8c-5017-4c15-a9c5-a0ce1314e6c8">
+        <location openTime = "16:45" closeTime = "20:58">
+            <city>Lethbridge</city>
+            <region>Alberta</region>
+            <country>Canada</country>
+        </location>
+        <animals>
+            <!-- Animal 1-->
+            <animal scientificName = "Elephas maximus bengalensis">
+                <commonName givenName = "Dudley">Asian elephant</commonName>
+                <dob>2017-06-06</dob>
+                <sex>Male</sex>
+            </animal>
+            <!-- Animal 2-->
+            <animal scientificName = "Kobus vardonii vardoni">
+                <commonName givenName = "Vernice">Puku</commonName>
+                <dob>2001-09-04</dob>
+                <sex>Female</sex>
+            </animal>
+            <!-- Animal 3-->
+            <animal scientificName = "Coluber constrictor foxii">
+                <commonName givenName = "Tod">Blue racer</commonName>
+                <dob>2005-07-27</dob>
+                <sex>Male</sex>
+            </animal>
+            <!-- Animal 4-->
+            <animal scientificName = "Geochelone elephantopus">
+                <commonName givenName = "Ricardo">Tortoise, galapagos</commonName>
+                <dob>2017-07-18</dob>
+                <sex>Male</sex>
+            </animal>
+            <!-- Animal 5-->
+            <animal scientificName = "Bison bison">
+                <commonName givenName = "Verina">Bison, american</commonName>
+                <dob>2012-01-26</dob>
+                <sex>Female</sex>
+            </animal>
+            <!-- Animal 6-->
+            <animal scientificName = "Cereopsis novaehollandiae">
+                <commonName givenName = "Fayina">Goose, cape barren</commonName>
+                <dob>2006-10-30</dob>
+                <sex>Female</sex>
+            </animal>
+            <!-- Animal 7-->
+            <animal scientificName = "Odocoileus hemionus">
+                <commonName givenName = "Gnni">Black-tailed deer</commonName>
+                <dob>2019-09-21</dob>
+                <sex>Female</sex>
+            </animal>
+        </animals>
+        <employees>
+            <!-- Employee 1-->
+            <employee id = "d4cebc57-67aa-48f2-9efc-314cd7612a02">
+                <firstName>Jandy</firstName>
+                <lastName>Gommery</lastName>
+                <dobEmp>1989-03-25</dobEmp>
+                <position>Professor</position>
+            </employee>
+            <!-- Employee 2-->
+            <employee id = "7f05392d-a7f3-40c8-8579-2b1c25b7dddc">
+                <firstName>Clerissa</firstName>
+                <lastName>Khoter</lastName>
+                <dobEmp>1981-02-22</dobEmp>
+                <position>Dental Hygienist</position>
+            </employee>
+            <!-- Employee 3-->
+            <employee id = "f1f458ba-f0d5-464c-9571-f4732e22c86f">
+                <firstName>Gregory</firstName>
+                <lastName>Hacun</lastName>
+                <dobEmp>1969-03-03</dobEmp>
+                <position>Research Associate</position>
+            </employee>
+        </employees>
+    </zoo>
+
+    <!-- Zoo Number: 13-->
+    <zoo id = "708de8b8-15db-46b6-bc2d-9ff169faac80">
+        <location openTime = "7:52" closeTime = "20:03">
+            <city>Honolulu</city>
+            <region>Hawaii</region>
+            <country>United States</country>
+        </location>
+        <animals>
+            <!-- Animal 1-->
+            <animal scientificName = "Propithecus verreauxi">
+                <commonName givenName = "Verreaux's sifaka">Torre</commonName>
+                <dob>2010-06-15</dob>
+                <sex>Male</sex>
+            </animal>
+            <!-- Animal 2-->
+            <animal scientificName = "Trachyphonus vaillantii">
+                <commonName givenName = "Gaven">Barbet, levaillant's</commonName>
+                <dob>2020-03-30</dob>
+                <sex>Male</sex>
+            </animal>
+            <!-- Animal 3-->
+            <animal scientificName = "Martes americana">
+                <commonName givenName = "Bary">American marten</commonName>
+                <dob>2006-02-03</dob>
+                <sex>Male</sex>
+            </animal>
+            <!-- Animal 4-->
+            <animal scientificName = "Zalophus californicus">
+                <commonName givenName = "Adam">Lion, california sea</commonName>
+                <dob>2015-05-08</dob>
+                <sex>Male</sex>
+            </animal>
+            <!-- Animal 5-->
+            <animal scientificName = "Procyon cancrivorus">
+                <commonName givenName = "Valentijn">Crab-eating raccoon</commonName>
+                <dob>2022-02-09</dob>
+                <sex>Male</sex>
+            </animal>
+            <!-- Animal 6-->
+            <animal scientificName = "Eudyptula minor">
+                <commonName givenName = "Mill">Fairy penguin</commonName>
+                <dob>2006-04-25</dob>
+                <sex>Male</sex>
+            </animal>
+            <!-- Animal 7-->
+            <animal scientificName = "Lama guanicoe">
+                <commonName givenName = "Louisa">Guanaco</commonName>
+                <dob>2006-09-19</dob>
+                <sex></sex>
+            </animal>
+        </animals>
+        <employees>
+            <!-- Employee 1-->
+            <employee id = "1bb09472-1df2-4bad-a7e1-f830bb93e84d">
+                <firstName>Melita</firstName>
+                <lastName>Grinyakin</lastName>
+                <dobEmp>1981-01-27</dobEmp>
+                <position>Executive Secretary</position>
+            </employee>
+            <!-- Employee 2-->
+            <employee id = "4978a93e-6d93-4282-b879-d452672bf9ba">
+                <firstName>Tisha</firstName>
+                <lastName>Burles</lastName>
+                <dobEmp>1986-04-02</dobEmp>
+                <position>Software Test Engineer IV</position>
+            </employee>
+            <!-- Employee 3-->
+            <employee id = "aead0f5e-5169-4e6d-b56b-d5b2e0c9391a">
+                <firstName>Johannah</firstName>
+                <lastName>Duckers</lastName>
+                <dobEmp>1991-11-17</dobEmp>
+                <position>Legal Assistant</position>
+            </employee>
+        </employees>
+    </zoo>
+
+    <!-- Zoo Number: 14-->
+    <zoo id = "b8e2f8ca-571b-4ff4-88f4-43f4298b9a0b">
+        <location openTime = "9:50" closeTime = "20:14">
+            <city>Chicago</city>
+            <region>Illinois</region>
+            <country>United States</country>
+        </location>
+        <animals>
+            <!-- Animal 1-->
+            <animal scientificName = "Ara ararauna">
+                <commonName givenName = "Sheffy">Macaw, blue and gold</commonName>
+                <dob>2009-12-04</dob>
+                <sex>Male</sex>
+            </animal>
+            <!-- Animal 2-->
+            <animal scientificName = "Tachybaptus ruficollis">
+                <commonName givenName = "Caterina">Grebe, little</commonName>
+                <dob>2019-12-11</dob>
+                <sex>Female</sex>
+            </animal>
+            <!-- Animal 3-->
+            <animal scientificName = "Platalea leucordi">
+                <commonName givenName = "Ofelia">European spoonbill</commonName>
+                <dob>2014-06-18</dob>
+                <sex>Female</sex>
+            </animal>
+            <!-- Animal 4-->
+            <animal scientificName = "Ninox superciliaris">
+                <commonName givenName = "Nomi">Owl, madagascar hawk</commonName>
+                <dob>2010-01-28</dob>
+                <sex>Female</sex>
+            </animal>
+            <!-- Animal 5-->
+            <animal scientificName = "unavailable">
+                <commonName givenName = "Abigael">Malay squirrel (unidentified)</commonName>
+                <dob>2019-11-24</dob>
+                <sex>Female</sex>
+            </animal>
+            <!-- Animal 6-->
+            <animal scientificName = "Macropus robustus">
+                <commonName givenName = "Sid">Common wallaroo</commonName>
+                <dob>2009-04-08</dob>
+                <sex>Male</sex>
+            </animal>
+            <!-- Animal 7-->
+            <animal scientificName = "Tayassu tajacu">
+                <commonName givenName = "Skippy">Peccary, collared</commonName>
+                <dob>2004-03-08</dob>
+                <sex>Male</sex>
+            </animal>
+        </animals>
+        <employees>
+            <!-- Employee 1-->
+            <employee id = "c1ddd75e-abe8-494b-a015-f1cc0658900c">
+                <firstName>Antonin</firstName>
+                <lastName>Howell</lastName>
+                <dobEmp>1986-07-27</dobEmp>
+                <position>Senior Quality Engineer</position>
+            </employee>
+            <!-- Employee 2-->
+            <employee id = "0b1761fa-19d2-4343-bdba-db8b876a611c">
+                <firstName>Aarika</firstName>
+                <lastName>Pogosian</lastName>
+                <dobEmp>1991-07-15</dobEmp>
+                <position>Analog Circuit Design manager</position>
+            </employee>
+            <!-- Employee 3-->
+            <employee id = "47c5d935-6675-4299-b862-134c7a700301">
+                <firstName>Belicia</firstName>
+                <lastName>Miko</lastName>
+                <dobEmp>1990-01-18</dobEmp>
+                <position>Web Designer II</position>
+            </employee>
+        </employees>
+    </zoo>
+
+    <!-- Zoo Number: 15-->
+    <zoo id = "00cc73eb-bd65-4443-bbc7-e662bd0774cc">
+        <location openTime = "7:41" closeTime = "19:57">
+            <city>Brampton</city>
+            <region>Ontario</region>
+            <country>Canada</country>
+        </location>
+        <animals>
+            <!-- Animal 1-->
+            <animal scientificName = "Lorythaixoides concolor">
+                <commonName givenName = "Ryon">Grey lourie</commonName>
+                <dob>2014-10-29</dob>
+                <sex>Male</sex>
+            </animal>
+            <!-- Animal 2-->
+            <animal scientificName = "Aonyx cinerea">
+                <commonName givenName = "Brittan">Otter, oriental short-clawed</commonName>
+                <dob>2017-02-26</dob>
+                <sex>Male</sex>
+            </animal>
+            <!-- Animal 3-->
+            <animal scientificName = "Turtur chalcospilos">
+                <commonName givenName = "Raffaello">Dove, emerald-spotted wood</commonName>
+                <dob>2016-10-06</dob>
+                <sex>Male</sex>
+            </animal>
+            <!-- Animal 4-->
+            <animal scientificName = "Chlidonias leucopterus">
+                <commonName givenName = "Harris">White-winged tern</commonName>
+                <dob>2018-11-07</dob>
+                <sex>Male</sex>
+            </animal>
+            <!-- Animal 5-->
+            <animal scientificName = "Milvus migrans">
+                <commonName givenName = "Gibbie">Black kite</commonName>
+                <dob>2001-04-23</dob>
+                <sex>Male</sex>
+            </animal>
+            <!-- Animal 6-->
+            <animal scientificName = "Phoca vitulina">
+                <commonName givenName = "Roxane">Common seal</commonName>
+                <dob>2006-04-30</dob>
+                <sex>Female</sex>
+            </animal>
+            <!-- Animal 7-->
+            <animal scientificName = "Vanellus chilensis">
+                <commonName givenName = "Thorin">Lapwing, southern</commonName>
+                <dob>2012-01-01</dob>
+                <sex>Male</sex>
+            </animal>
+        </animals>
+        <employees>
+            <!-- Employee 1-->
+            <employee id = "f44e5927-e633-4ea5-a855-737acd9ed262">
+                <firstName>Arin</firstName>
+                <lastName>Heilds</lastName>
+                <dobEmp>1981-08-13</dobEmp>
+                <position>Community Outreach Specialist</position>
+            </employee>
+            <!-- Employee 2-->
+            <employee id = "c2217692-2f74-4563-9f29-8b32702a86ca">
+                <firstName>Lammond</firstName>
+                <lastName>Darlasson</lastName>
+                <dobEmp>1987-09-20</dobEmp>
+                <position>Analyst Programmer</position>
+            </employee>
+            <!-- Employee 3-->
+            <employee id = "4fbfed0c-f421-4373-991d-0aad63803716">
+                <firstName>Nelly</firstName>
+                <lastName>Besset</lastName>
+                <dobEmp>1975-02-26</dobEmp>
+                <position>Junior Executive</position>
+            </employee>
+        </employees>
+    </zoo>
+</zoos>
