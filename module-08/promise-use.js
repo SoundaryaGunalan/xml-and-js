@@ -4,7 +4,7 @@
  */
 const executor = (resolve, reject) => {
   // do some work
-  const check = true;
+  const check = false;
 
   if (check) {
     resolve(`resolved`);
