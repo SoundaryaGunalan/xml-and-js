@@ -53,8 +53,8 @@ Async await method 2:
     const response = await fetch("./people.xml")
     .then((data)=> data.text())
     .then((strData)=>
-     new DOMParser().parseFromString(str, "text/xml"));
-    displayData(xmlData);
+     new DOMParser().parseFromString(data, "text/xml"));
+    displayData(strData);
   };
   
   loadData();
