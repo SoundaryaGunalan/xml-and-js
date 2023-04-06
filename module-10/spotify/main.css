@@ -2,28 +2,31 @@
   max-width: 100%;
   overflow: hidden;
   display: flex;
-  background-color: #4daf64;
-  color: white;
+  background-color: #764daf;
+  color: rgb(12, 12, 12);
 }
 
 .genre-card:not(:last-child) {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 
 .genre-card > div {
   padding: 10px 20px;
   display: flex;
-  flex-direction: column;
+  flex-direction:row-reverse;
   overflow: hidden;
 }
 
 .genre-card > div > a {
-  color: white;
-  font-weight: bold;
+  color: rgba(2, 0, 0, 0.948);
+  font-variant: small-caps;
+  
+  
 }
 
 ol {
   list-style: none;
+  border: 5px solid black;
   margin: 0;
   padding: 0;
   display: flex;

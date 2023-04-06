@@ -1,4 +1,4 @@
-const clientId = `ccc5b5ecc47c461dbc39db40398a0a65`;//ccc5b5ecc47c461dbc39db40398a0a65
+const clientId = `ccc5b5ecc47c461dbc39db40398a0a65`;
 
 const clientSecret = `5f07f8e3cd6f47acbbed685205e4ce83`;
 
@@ -50,16 +50,14 @@ const loadGenres = async () => {
   const list = document.getElementById(`genres`);
   genres.map(async ({ name, id, icons: [icon], href }) => {
     const playlists = await getPlaylistByGenre(token, id);
-    const playlistsTable = playlists
+    const playlistsList = playlists
       .map(
         ({ name, external_urls: { spotify }, images: [image] }) => `
-        <td>
-        <tr>
+        <li>
           <a href="${spotify}" alt="${name}" target="_blank">
             <img src="${image.url}" width="180" height="180"/>
           </a>
-          </tr>
-        </td>`
+        </li>`
       )
       .join(``);
 
@@ -70,7 +68,7 @@ const loadGenres = async () => {
         <div>
           <h2>${name}</h2>
           <ol>
-            ${playlistsTable}
+            ${playlistsList}
           </ol>
         </div>
       </article>`;
@@ -81,6 +79,3 @@ const loadGenres = async () => {
 };
 
 loadGenres();
-
-
-
