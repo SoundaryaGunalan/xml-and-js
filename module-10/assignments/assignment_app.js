@@ -44,38 +44,81 @@ const getPlaylistByGenre = async (token, genreId) => {
   return data.playlists.items;
 };
 
+const getTracksByPlayList = async (token, playlistId) => {
+    const limit = 10;
+    console.log("Inside getTracksByPlaylist");
+    console.log("token :"+token);
+    console.log("PlayList ID :"+playlistId);
+    const result = await fetch(
+      `https://api.spotify.com/v1/playlists/${playlistId}/tracks`,
+        {
+        method: "GET",
+        headers: { Authorization: "Bearer " + token },
+      }
+    );
+  
+    const data = await result.json();
+    console.log("data"+  data);
+    //console.log("data.items"+  data.items);
+    return data;
+  };
+
 const loadGenres = async () => {
   const token = await getToken();
   const genres = await getGenres(token);
   const list = document.getElementById(`genres`);
   genres.map(async ({ name, id, icons: [icon], href }) => {
     const playlists = await getPlaylistByGenre(token, id);
-    const playlistsList = playlists
+    console.log("Playlist" +playlists );
+    const playlistsTable = await Promise.all(playlists
       .map(
-        ({ name, external_urls: { spotify }, images: [image] }) => `
-        <td>
-        <tr>
-          <a href="${spotify}" alt="${name}" target="_blank">
-          <img src="${image.url}" width="180" height="180"/>
-          </a>
+        async ({ name,id }) =>{
+
+        console.log("Initiating call to getTracksByPlayList" );
+        const tracks= await getTracksByPlayList(token,id);   
+        console.log("tracks" + tracks);
+       const trackList = tracks
+       .map
+       (
+        ({track: { name: trackName, artists} })=>
+          `<td>
+          <tr>
+          ${trackName} - ${artists.map(artist => artist.name).join(`,`)}
           </tr>
-        </td>`
-      )
-      .join(``);
+          </td>`
+      
+      ) .join(``);
+       return `
+       <li>
+       <h3> ${name}</h3>
+       <ul>
+         ${trackList}
+         
+       </ul>
+       </li>
+       `;
+
+       
+      }));
+     
 
     if (playlists) {
+      if(trackList){
       const html = `
       <article class="genre-card">
         <img src="${icon.url}" width="${icon.width}" height="${icon.height}" alt="${name}"/>
         <div>
           <h2>${name}</h2>
           <ol>
-            ${playlistsList}
+            
+            ${trackList}
           </ol>
+          
         </div>
       </article>`;
 
       list.insertAdjacentHTML("beforeend", html);
+      }
     }
   });
 };
