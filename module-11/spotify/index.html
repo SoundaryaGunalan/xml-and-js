@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="main.css" />
   </head>
   <body>
-    <form onsubmit="onSubmit(event)">
+    <form >
       <label for="input-filter-term">Find genre</label>
       <input
         type="text"
@@ -15,7 +15,7 @@
         id="input-filter-term"
         placeholder="Enter value"
       />
-      <button type="submit">Apply filters</button>
+      <button type="submit" onclick="loadFormByGenre()">Apply filters</button>
     </form>
     <div id="genres"></div>
     <script src="app.js" type="text/javascript"></script>

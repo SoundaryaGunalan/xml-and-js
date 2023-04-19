@@ -19,3 +19,5 @@
 - stock market - crypto converter "https://coinlayer.com/"
 - university - words definition searcher "https://www.wordsapi.com/docs/"
 - zoo - dog breed info "https://thedogapi.com/"
+
+

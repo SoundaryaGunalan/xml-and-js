@@ -1,0 +1,81 @@
+* {
+    margin: 10;
+    padding: 10;
+  }
+  
+  body {
+    background-color: rgb(134, 104, 211);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+  }
+ 
+  .heading2 {
+    font-family: "YahooSans VF",Arial,sans-serif;
+    letter-spacing: 2px;
+    margin: 10px 0px;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #010e18;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 12);
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  #dog-image {
+    width: 85%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+  }
+  
+  .dogDetailsClass {
+    margin: 2px;
+  }
+  
+  .dogDetailsClass > tbody > tr > td:first-child {
+    color: #060606;
+    font-weight: bolder;
+  }
+  
+  .dogDetailsClass > tbody > tr {
+    font-family: "YahooSans VF",Arial,sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #0a0a0a99;
+    margin-bottom: 1px;
+  }
+  
+  .dogHeightWidth {
+    color: #060606;
+    font-weight: bolder;
+    background-color: rgb(230, 247, 255);
+  }
+  
+  select {
+    margin: 15px;
+    width: 250px;
+    font-family: "YahooSans VF",Arial,sans-serif;
+    appearance: none;
+    font-size: 16px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid #060606;
+    background: white;
+  }
+
+  table > tr > td {
+    font-weight: bolder;
+  }
+  
+  
+  
