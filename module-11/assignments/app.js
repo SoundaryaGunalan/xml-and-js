@@ -77,7 +77,7 @@ const getTracksByPlaylist = async (token, playlist_id) => {
   return data.items;
 };
 
-const renderGenres = async (filterTerm) => {
+const renderGenres = async (filterTerm,condition) => {
   const token = await getToken();
   const genres = await getGenres(token);
   let source = _data;
@@ -90,6 +90,7 @@ const renderGenres = async (filterTerm) => {
   }
   const list = document.getElementById(`genres`);
   const html = source.reduce((acc, { name, icons: [icon], playlists }) => {
+    if(condition="withPL"){
     const playlistsList = playlists
       .map(({ name, external_urls: { spotify }, images: [image], tracks }) => {
 
@@ -132,6 +133,19 @@ const renderGenres = async (filterTerm) => {
         </article>`
       );
     }
+  }
+  else
+  {
+    return (
+      acc +
+      `
+      <article class="genre-card">
+      <h2 class="title_playlist">${ name }</h2>
+      <img class="heading" src="${ icon.url }" width="150" height="150" alt="${ name }"/>
+      </article>`
+    );
+
+  }
   }, ``);
 
   list.innerHTML = html;
@@ -143,6 +157,6 @@ const onSubmit = (event) => {
   event.preventDefault();
 
   const genre_name = event.target.genre_name.value;
-
-  renderGenres(genre_name);
+  const radio_button=event.target.radio_button_value.value;
+  renderGenres(genre_name,radio_button);
 };
